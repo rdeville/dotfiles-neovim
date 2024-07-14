@@ -54,8 +54,6 @@ opt.cpoptions = "aABceFs"
 opt.insertmode = false
 -- Paste mode, insert typed text literally
 opt.paste = false
--- Key sequence to toggle paste mode
-opt.pastetoggle = "<F2>"
 --[[
 ## MOVING AROUND, SEARCHING AND PATTERNS
 List of flags specifying which commands wrap to another line (local to window):
@@ -629,8 +627,6 @@ opt.rightleftcmd = "search"
 opt.revins = false
 -- Allow CTRL-_ in Insert and Command-line mode to toggle 'revins'
 opt.allowrevins = false
--- The ASCII code for the first letter of the Hebrew alphabet
-opt.aleph = 224
 -- Use Hebrew keyboard mapping
 opt.hkmap = false
 -- Use phonetic Hebrew keyboard mapping
@@ -663,8 +659,6 @@ opt.encoding = "utf-8"
 opt.fileencoding = "utf-8"
 -- Automatically detected character encodings
 opt.fileencodings = "utf-8,default,latin1"
--- Character encoding used by the terminal
-opt.termencoding = "utf-8"
 -- Expression used for character encoding conversion
 opt.charconvert = ""
 -- Delete combining (composing) characters on their own
