@@ -10,12 +10,7 @@ return {
       },
     },
   },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "tokyonight",
-    },
-  },
+  { "LazyVim/LazyVim" },
   -- Import Extra Lazy Vim
   -- UI
   { import = "lazyvim.plugins.extras.ui.edgy" },
