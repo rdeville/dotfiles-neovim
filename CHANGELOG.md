@@ -1,6 +1,17 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.1.1 (2024-07-16)
+
+### 🩹 Patch
+
+  * 🐛 Fix options after upgrade to nvim 0.10 (!2) by Romain Deville ([`df27e8d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/df27e8d8e10898d7162c9ad2917f1bb15f408497))
+  * 🐛(config): Fix options deprecated after nvim 0.10 by Romain Deville ([`c586c8e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c586c8e8e485fd65b191ca2a5da117352989fb52)) 🔏
+  * 📌 Update pinned lazy.lock dependencies by Romain Deville ([`f5506a1`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f5506a1fc8e41ccd1231efcdad59895d349b1cb2)) 🔏
+  * 📌 Update lazy lock by Romain Deville ([`2bee96b`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2bee96ba8b1c7badb3d4ded2e66fbf374785fbf9)) 🔏
+  * 🔧 Update colorscheme location definition (!3) by Romain Deville ([`0169505`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0169505b84360d908763d58d716e196eb1e66f1a))
+  * 🔧 Update colorscheme configuration location by Romain Deville ([`21624e5`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/21624e5cb3baa26d5a97de1f56f52a9a1addcd06)) 🔏
+
 ## v0.1.0 (2024-07-14)
 
 ### ✨ Minor
@@ -21,13 +32,14 @@
   * ✨(plugins): Add plugin config mini.indentscope by Romain Deville ([`08ef70d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/08ef70dd9c5fd25c30bd5b8ee42b43f73a9e245f)) 🔏
   * ✨(plugins): Add plugin config markdown by Romain Deville ([`74947a9`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/74947a9a2c9675e06be64f8e5ea7584d1416dc60)) 🔏
   * ✨(plugins): Add plugin config markdown-preview by Romain Deville ([`64bc47e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/64bc47ecfe36426c6b4fe4503ba3e6ea9070bdd2)) 🔏
-  * ✨(plugins): Add plugin config lazyvim by Romain Deville ([`a228d73`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/a228d73e3be7b2f7243f0bc88471d39c04ca97c6)) 🔏
-  * ✨(plugins): Add plugin config kiwi by Romain Deville ([`e04da32`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e04da32429b09b3e04faab9e2786c265770172d2)) 🔏
-  * ✨(plugins): Add plugin config indent-blankline by Romain Deville ([`c0e8d8c`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c0e8d8c121a71f89cec21de319464e033b69b594)) 🔏
 
 ### 🩹 Patch
 
   * 📌 Add lazy-lock.json pinned plugins by Romain Deville ([`0f622e4`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0f622e4a7eb8deab1fc628a16186133aede75d8d)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.1.0 (NO-CI) by Python Semantic Release [bot] ([`8664e07`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/8664e07dc76dd255c9babf93a5d3d702a314680d))
 
 ## v0.0.0 (2024-07-09)
 
