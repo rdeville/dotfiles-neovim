@@ -94,13 +94,8 @@ map("t", "T", "<cmd>close<cr>", { desc = "Hide Terminal" })
 
 -- Windows
 -- I know I'll never use it, so disable mapping
-del("n", "<leader>ww")
-del("n", "<leader>wd")
-del("n", "<leader>w-")
-del("n", "<leader>w|")
 del("n", "<leader>-")
 del("n", "<leader>|")
-del("n", "<leader>wm")
 
 map("n", "<leader>sp", "<C-W>s", { desc = "Split Window Below", remap = true })
 map("n", "<leader>vs", "<C-W>v", { desc = "Split Window Right", remap = true })
@@ -128,7 +123,7 @@ map("n", "<C-M-n>", "<cmd>tabnew<cr>", { desc = "New Tab" })
 map("n", "<C-e>", function()
   require("notify")(
     "Identifier: "
-      .. vim.inspect(vim.treesitter.get_captures_at_cursor(0), "error")
+      .. vim.inspect(vim.treesitter.get_captures_at_cursor(0))
       .. "\n"
       .. "Buffer Filetype: "
       .. vim.o.filetype
