@@ -1,6 +1,14 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.1.2 (2024-07-17)
+
+### 🩹 Patch
+
+  * 📌 Update lazy.lock by Romain Deville ([`af9659e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/af9659ee782e3794c35b3707889838010b0f9b0a)) 🔏
+  * 🔧 Fix keymaps which doesn&#39;t exists anymore (!4) by Romain Deville ([`e53b3ef`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e53b3ef6772aa86d506e845f10d28dc874cf6a09))
+  * 🔧 Fix keymaps which doesn&#39;t exists anymore by Romain Deville ([`f1d469a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f1d469a7cc04f93538d47706159e2427d5379c34)) 🔏
+
 ## v0.1.1 (2024-07-16)
 
 ### 🩹 Patch
@@ -11,6 +19,10 @@
   * 📌 Update lazy lock by Romain Deville ([`2bee96b`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2bee96ba8b1c7badb3d4ded2e66fbf374785fbf9)) 🔏
   * 🔧 Update colorscheme location definition (!3) by Romain Deville ([`0169505`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0169505b84360d908763d58d716e196eb1e66f1a))
   * 🔧 Update colorscheme configuration location by Romain Deville ([`21624e5`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/21624e5cb3baa26d5a97de1f56f52a9a1addcd06)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.1.1 (NO-CI) by Python Semantic Release [bot] ([`64f2699`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/64f2699544bd0433ceeec03b004e2d86aae6c6b4))
 
 ## v0.1.0 (2024-07-14)
 
@@ -30,8 +42,6 @@
   * ✨(plugins): Add plugin config noice by Romain Deville ([`2d55072`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2d55072f3ba2eba351e5046b570746d4a392ad30)) 🔏
   * ✨(plugins): Add plugin config multicursor by Romain Deville ([`be5f6bc`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/be5f6bcd48167fa32a0410a908ee937d4273260c)) 🔏
   * ✨(plugins): Add plugin config mini.indentscope by Romain Deville ([`08ef70d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/08ef70dd9c5fd25c30bd5b8ee42b43f73a9e245f)) 🔏
-  * ✨(plugins): Add plugin config markdown by Romain Deville ([`74947a9`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/74947a9a2c9675e06be64f8e5ea7584d1416dc60)) 🔏
-  * ✨(plugins): Add plugin config markdown-preview by Romain Deville ([`64bc47e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/64bc47ecfe36426c6b4fe4503ba3e6ea9070bdd2)) 🔏
 
 ### 🩹 Patch
 
