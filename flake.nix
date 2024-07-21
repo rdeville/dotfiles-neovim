@@ -55,16 +55,16 @@
         inputs.alejandra.defaultPackage.${system}
     );
     homeManagerModules = {
-      neovim = import ./modules/home-manager.nix self;
+      neovimrc = import ./modules/home-manager.nix self;
     };
-    homeManagerModule = self.homeManagerModules.neovim;
+    homeManagerModule = self.homeManagerModules.neovimrc;
 
     # BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_CUSTOM
     # Exemple of package
     packages = forAllSystems (system: rec {
-      neovim = with import inputs.nixpkgs {inherit system;};
+      neovimrc = with import inputs.nixpkgs {inherit system;};
         callPackage ./package.nix {};
-      default = neovim;
+      default = neovimrc;
     });
     # END DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_CUSTOM
   };
