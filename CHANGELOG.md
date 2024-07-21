@@ -1,6 +1,24 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.0 (2024-07-21)
+
+### ✨ Minor
+
+  * ✨ Add git-blame plugin and fix nix typos (!5) by Romain Deville ([`419d947`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/419d9473acd6bf61c992d198819e4b8d34fcf5b4))
+  * ✨(plugins): Add config plugin git-blame by Romain Deville ([`d831826`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/d8318267ae9fcc612c9b33ec83cdef60379c805d)) 🔏
+
+### 🩹 Patch
+
+  * ✏️ Update nix and hm module name by Romain Deville ([`c9bb2dc`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c9bb2dca1b2ce4c644b76c9a8a34be795cde45ea)) 🔏
+  * 📌 Update lazy.lock by Romain Deville ([`f25a434`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f25a434feab65fa11b3d454255e931b8b59247c7)) 🔏
+  * 🔧 Update dotgit config slug by Romain Deville ([`439396e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/439396e039a7fefa8d37c3fe495eac442b77dd72)) 🔏
+
+### 🔊 Others
+
+  * 📝 Update README.md from DGS update by Romain Deville ([`e2bb64a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e2bb64a998ae4d07cb37d0a435b1537db8a1dd26)) 🔏
+  * 🙈 Update gitignore by Romain Deville ([`9ad6bde`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/9ad6bde776a377496be1e4409612218158016946)) 🔏
+
 ## v0.1.2 (2024-07-17)
 
 ### 🩹 Patch
@@ -8,6 +26,10 @@
   * 📌 Update lazy.lock by Romain Deville ([`af9659e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/af9659ee782e3794c35b3707889838010b0f9b0a)) 🔏
   * 🔧 Fix keymaps which doesn&#39;t exists anymore (!4) by Romain Deville ([`e53b3ef`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e53b3ef6772aa86d506e845f10d28dc874cf6a09))
   * 🔧 Fix keymaps which doesn&#39;t exists anymore by Romain Deville ([`f1d469a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f1d469a7cc04f93538d47706159e2427d5379c34)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.1.2 (NO-CI) by Python Semantic Release [bot] ([`3d5b50e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/3d5b50e760c761eb7e782d367bc8b30f7afc610c))
 
 ## v0.1.1 (2024-07-16)
 
@@ -40,8 +62,6 @@
   * ✨(plugins): Add plugin config transparent by Romain Deville ([`bce7826`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/bce7826ffa198eb33cc4bbff22a5a410942f7f77)) 🔏
   * ✨(plugins): Add plugin config rainbow-delimiter by Romain Deville ([`6db9c0f`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/6db9c0fcbbc97fa7d886615081925ff312e4cb5d)) 🔏
   * ✨(plugins): Add plugin config noice by Romain Deville ([`2d55072`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2d55072f3ba2eba351e5046b570746d4a392ad30)) 🔏
-  * ✨(plugins): Add plugin config multicursor by Romain Deville ([`be5f6bc`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/be5f6bcd48167fa32a0410a908ee937d4273260c)) 🔏
-  * ✨(plugins): Add plugin config mini.indentscope by Romain Deville ([`08ef70d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/08ef70dd9c5fd25c30bd5b8ee42b43f73a9e245f)) 🔏
 
 ### 🩹 Patch
 
