@@ -1,5 +1,4 @@
 <!-- BEGIN DOTGIT-SYNC BLOCK MANAGED -->
-
 # 👋 Welcome to NeoVim Config
 
 <center>
@@ -39,7 +38,6 @@ My neovim configuration WITHOUT vim support (contrary to [my old
 dotfiles](https://framagit.org/rdeville-public/dotfiles/vim)).
 
 ---
-
 <!-- BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
 <!--
 ## 📌 Prerequisites
@@ -52,7 +50,6 @@ dotfiles](https://framagit.org/rdeville-public/dotfiles/vim)).
 
 -->
 <!-- END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
@@ -66,11 +63,11 @@ You can also take a look at the [CONTRIBUTING.md][contributing].
 
 ## 👤 Maintainers
 
-- 📧 [**Romain Deville** \<code@romaindeville.fr\>](mailto:code@romaindeville.fr)
-  - Website: [https://romaindeville.fr](https://romaindeville.fr)
-  - Github: [@rdeville](https://github.com/rdeville)
-  - Gitlab: [@r.deville](https://gitlab.com/r.deville)
-  - Framagit: [@rdeville](https://framagit.org/rdeville)
+* 📧 [**Romain Deville** \<code@romaindeville.fr\>](mailto:code@romaindeville.fr)
+  * Website: [https://romaindeville.fr](https://romaindeville.fr)
+  * Github: [@rdeville](https://github.com/rdeville)
+  * Gitlab: [@r.deville](https://gitlab.com/r.deville)
+  * Framagit: [@rdeville](https://framagit.org/rdeville)
 
 ## 📝 License
 
@@ -78,10 +75,9 @@ Copyright © 2024 [Romain Deville](code@romaindeville.fr)
 
 This project is under following licenses (**OR**) :
 
-- [MIT][main_license]
-- [BEERWARE][beerware_license]
+* [MIT][main_license]
+* [BEERWARE][beerware_license]
 
 [main_license]: https://framagit.org/rdeville-public/dotfiles/neovim/blob/main/LICENSE
 [beerware_license]: https://framagit.org/rdeville-public/dotfiles/neovim/blob/main/LICENSE.BEERWARE
-
 <!-- END DOTGIT-SYNC BLOCK MANAGED -->

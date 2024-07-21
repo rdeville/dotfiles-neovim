@@ -6,10 +6,10 @@ self: {
   # BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_HOME_MANAGER_MODULE_CUSTOM
   ...
 }: let
-  cfg = config.neovim;
+  cfg = config.neovimrc;
 in {
   options = {
-    neovim = {
+    neovimrc = {
       enable = lib.mkEnableOption "Enable the installation of the package";
     };
   };

@@ -15,7 +15,7 @@ dotgit:
 # Repos description and template usage configuration
 # ------------------------------------------------------------------------------
 name: NeoVim Config
-slug: neovim
+slug: neovimrc
 description: |-
   My neovim configuration WITHOUT vim support (contrary to [my old
   dotfiles](https://framagit.org/rdeville-public/dotfiles/vim)).
