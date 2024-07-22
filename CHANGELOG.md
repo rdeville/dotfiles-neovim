@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.1 (2024-07-22)
+
+### 🩹 Patch
+
+  * 📌 Update lazy-lock.json from scheduled pipeline (!9) by dotgit_sync_token ([`993608f`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/993608f62916d3d397abf8e94afb320c9d0c0ab8))
+  * 📌 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`02bea7c`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/02bea7c2cdec6bd078921008433a35f78032269b))
+
 ## v0.2.0 (2024-07-21)
 
 ### ✨ Minor
@@ -17,6 +24,7 @@
 ### 🔊 Others
 
   * 📝 Update README.md from DGS update by Romain Deville ([`e2bb64a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e2bb64a998ae4d07cb37d0a435b1537db8a1dd26)) 🔏
+  * 🔖 v0.2.0 (NO-CI) by Python Semantic Release [bot] ([`adabcf1`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/adabcf106d4140f1499d1ef6ebfdc783d1bd653b))
   * 🙈 Update gitignore by Romain Deville ([`9ad6bde`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/9ad6bde776a377496be1e4409612218158016946)) 🔏
 
 ## v0.1.2 (2024-07-17)
@@ -60,8 +68,6 @@
   * ✨(plugins): Add plugin config vim-tmux-navigator by Romain Deville ([`f0b94b3`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f0b94b37dd312646ac023a2c2c4b1c8c3e685472)) 🔏
   * ✨(plugins): Add plugin config treesitter by Romain Deville ([`e3195e6`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e3195e6c4cf518d0d3532f2cea57e62a047027a5)) 🔏
   * ✨(plugins): Add plugin config transparent by Romain Deville ([`bce7826`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/bce7826ffa198eb33cc4bbff22a5a410942f7f77)) 🔏
-  * ✨(plugins): Add plugin config rainbow-delimiter by Romain Deville ([`6db9c0f`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/6db9c0fcbbc97fa7d886615081925ff312e4cb5d)) 🔏
-  * ✨(plugins): Add plugin config noice by Romain Deville ([`2d55072`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2d55072f3ba2eba351e5046b570746d4a392ad30)) 🔏
 
 ### 🩹 Patch
 
