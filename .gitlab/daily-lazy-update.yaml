@@ -1,0 +1,86 @@
+Update Lazy Lockfile:
+  image: alpine:latest
+  stage: pre-release
+  variables:
+    LAZY_LOCK_BRANCH: chore/update-lazy-lock
+    GIT_USER_NAME: LazyLock Update[bot]
+    GIT_USER_EMAIL: code+bot.lazylock-update@romaindeville.fr
+    COMMIT_MESSAGE: "📌 Update lazy-lock.json from scheduled pipeline"
+    GITLAB_TOKEN: ${DOTGIT_SYNC_TOKEN}
+  before_script:
+    - apk add --update --no-cache
+      neovim
+      git
+      glab
+    - mkdir -p "${HOME}/.config"
+    - ln -s "${PWD}" "${HOME}/.config/nvim"
+    - glab config set -g host "${CI_SERVER_HOST}"
+  script:
+    - git fetch --all
+    - git checkout "${CI_DEFAULT_BRANCH}"
+    - git pull origin "${CI_DEFAULT_BRANCH}"
+    - |-
+      # Check if lazy-lock branch already exists, if so, make it up-to-date
+      # with main branch
+      if git branch --list | grep "${LAZY_LOCK_BRANCH}"
+      then
+        git checkout "${LAZY_LOCK_BRANCH}"
+        git rebase "${CI_DEFAULT_BRANCH}"
+      else
+        git checkout -b "${LAZY_LOCK_BRANCH}"
+      fi
+    - nvim --headless "+Lazy! sync" +qa &>/dev/null
+    - |-
+      if ! git diff --quiet
+      then
+        export LAZY_UPDATE=true
+      fi
+    - |-
+      if [[ -n "${LAZY_UPDATE}" ]]
+      then
+        git config --global user.email "${GIT_USER_NAME}"
+        git config --global user.name "${GIT_USER_EMAIL}"
+        git add ./lazy-lock.json
+        git commit -m "${COMMIT_MESSAGE}"
+      fi
+      # Will use same token as DGS, cos' I'm lazy to generate another one
+    - git remote set-url origin "https://gitlab-ci-token:${DOTGIT_SYNC_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}"
+    - |-
+      if [[ -n "${LAZY_UPDATE}" ]] && ! glab mr list | grep -q "${COMMIT_MESSAGE}"
+      then
+        # If new upgrade push with MR creation
+        # WARNING: DANGEROUS, BE SURE TO PROTECT DEFAULT BRANCHES
+        git push \
+          --force \
+          -o merge_request.create \
+          -o merge_request.label=ci \
+          -o merge_request.label=enhancement \
+          -o merge_request.title="${COMMIT_MESSAGE}" \
+          --set-upstream origin \
+          "${LAZY_LOCK_BRANCH}"
+      elif [[ -n "${LAZY_UPDATE}" ]] && glab mr list | grep -q "${COMMIT_MESSAGE}"
+      then
+        # If ugprade push to make up to date
+        # In any case, make sure remote branch is up-to-date
+        # WARNING: DANGEROUS, BE SURE TO PROTECT DEFAULT BRANCHES
+        git push \
+          --force \
+          --set-upstream origin \
+          "${LAZY_LOCK_BRANCH}"
+      fi
+    - |-
+      if [[ -n "${LAZY_UPDATE}" ]]
+      then
+        # Wait 1 minutes to ensure CI attached to MR above is started
+        sleep 300
+        MR_ID=$(
+          glab mr list |
+          grep "${COMMIT_MESSAGE}" |
+          awk '{print $1}' |
+          sed 's/!//g'
+        )
+        glab mr merge ${MR_ID} -y
+      fi
+  rules:
+    # Run only on scheduled pipelines
+    - if: $CI_PIPELINE_SOURCE == "schedule" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
