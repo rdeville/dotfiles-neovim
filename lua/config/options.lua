@@ -2,6 +2,8 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Hide deprecation warnings
 vim.g.deprecation_warnings = true
+-- Deactivate lazy autoformat
+vim.g.autoformat = false
 
 local opt = vim.opt
 --[[
