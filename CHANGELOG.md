@@ -1,6 +1,18 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.3 (2024-07-25)
+
+### 🩹 Patch
+
+  * 📌 Update lazyvim.json and lock by Romain Deville ([`2c73947`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2c73947f7b3005f2752a8e1231bb07c069e4de5b)) 🔏
+  * 🔧(config/options): Deactivate autoformat and update CI (!12) by Romain Deville ([`dbd0c31`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/dbd0c31435c3f6f5e857c0d301e9f36c5f587cce))
+  * 🔧 Deactivate autoformat by Romain Deville ([`17eb9c2`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/17eb9c2af35c6532b65728e133e515777ca8da6b)) 🔏
+
+### 🔊 Others
+
+  * 💚 Allow CI to run on schedule by Romain Deville ([`42e2402`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/42e24023aeb62efc8fdffade4f44889d5bc2be99)) 🔏
+
 ## v0.2.2 (2024-07-22)
 
 ### 🩹 Patch
@@ -12,6 +24,7 @@
 
   * 👷 Add CI to auto-update lazy-lock (!10) by Romain Deville ([`de78a03`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/de78a03be72372cbde6f6407c6830b9989aa5a7a))
   * 👷 Add CI to auto-update lazy-lock by Romain Deville ([`41f39b6`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/41f39b6c32876d1ae7a3e28ff9c0348a661ce83b)) 🔏
+  * 🔖 v0.2.2 (NO-CI) by Python Semantic Release [bot] ([`eaabc68`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/eaabc68582b5ffb7f90685d3a8df5c023ffbf9cc))
 
 ## v0.2.1 (2024-07-22)
 
@@ -79,8 +92,6 @@
   * ✨(plugins): Add plugin config neo-tree with win-picker by Romain Deville ([`129e6cc`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/129e6cc07e53c181dcf773e805c48171c8b98d7f)) 🔏
   * ✨(plugins): Add plugin config aerial by Romain Deville ([`4ebaeda`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/4ebaeda88949f0a7ce58b86da06a8403bad5f462)) 🔏
   * ✨(plugins): Add plugin config mini.hipatterns by Romain Deville ([`d0dcf83`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/d0dcf83b6cf74f40903dee5c40e6b60d8aaf3481)) 🔏
-  * ✨(plugins): Add plugin config nvim-cmp by Romain Deville ([`758f79e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/758f79ef8deb15a8336de7f2ff37e4d73bc37670)) 🔏
-  * ✨(plugins): Add plugin config mason by Romain Deville ([`d39989d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/d39989d49a370769eced2274978a21b190938366)) 🔏
 
 ### 🩹 Patch
 
