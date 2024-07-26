@@ -1,12 +1,23 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.5 (2024-07-26)
+
+### 🩹 Patch
+
+  * 📌 Update lazy-lock.json from scheduled pipeline (!14) by dotgit_sync_token ([`3451507`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/345150705e322b71640433098072b5bb6ad826ba))
+  * 📌 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`c28e223`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c28e2238368c3d35f44dfacb6883aedaa727621f))
+
 ## v0.2.4 (2024-07-25)
 
 ### 🩹 Patch
 
   * 📌 Update lazy-lock.json from scheduled pipeline (!13) by dotgit_sync_token ([`f04ce39`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f04ce39a8059054a744975838e2854ac1e2b460e))
   * 📌 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`046b3b4`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/046b3b40342f7bb4c8bc1dd802e735d02864f869))
+
+### 🔊 Others
+
+  * 🔖 v0.2.4 (NO-CI) by Python Semantic Release [bot] ([`7a44c63`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/7a44c63853826692d417ca99d30e1e4eda29a6e7))
 
 ## v0.2.3 (2024-07-25)
 
@@ -96,8 +107,6 @@
 ### ✨ Minor
 
   * ✨ New config for neovim using lua (vim-&gt;neovim migration) (!1) by Romain Deville ([`0093c33`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0093c330a0b06c2752c3fc98d38abfd21dc8d2ea))
-  * ✨(plugins): Add extra to lazyvim.lua by Romain Deville ([`7e22722`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/7e2272282008d4b289e20ffb79f71878a1a6a53d)) 🔏
-  * ✨(plugins): Add plugin config neo-tree with win-picker by Romain Deville ([`129e6cc`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/129e6cc07e53c181dcf773e805c48171c8b98d7f)) 🔏
 
 ### 🩹 Patch
 
