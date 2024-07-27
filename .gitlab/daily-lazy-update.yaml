@@ -5,7 +5,7 @@ Update Lazy Lockfile:
     LAZY_LOCK_BRANCH: chore/update-lazy-lock
     GIT_USER_NAME: LazyLock Update[bot]
     GIT_USER_EMAIL: code+bot.lazylock-update@romaindeville.fr
-    COMMIT_MESSAGE: "📌 Update lazy-lock.json from scheduled pipeline"
+    COMMIT_MESSAGE: "📸 Update lazy-lock.json from scheduled pipeline"
     GITLAB_TOKEN: ${DOTGIT_SYNC_TOKEN}
   before_script:
     - apk add --update --no-cache
