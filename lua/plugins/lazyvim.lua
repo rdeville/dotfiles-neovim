@@ -4,8 +4,6 @@ return {
     opts = {
       transparent = true,
       styles = {
-        sidebars = "transparent",
-        floats = "transparent",
         buffers = "transparent",
       },
     },
@@ -13,8 +11,6 @@ return {
   { "LazyVim/LazyVim" },
   -- Import Extra Lazy Vim
   -- UI
-  { import = "lazyvim.plugins.extras.ui.edgy" },
-  -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
   { import = "lazyvim.plugins.extras.ui.treesitter-context" },
 
   -- CODING
@@ -34,7 +30,6 @@ return {
   { import = "lazyvim.plugins.extras.editor.inc-rename" },
   { import = "lazyvim.plugins.extras.editor.mini-diff" },
   { import = "lazyvim.plugins.extras.editor.navic" },
-  -- { import = "lazyvim.plugins.extras.editor.outline" },
   { import = "lazyvim.plugins.extras.editor.overseer" },
   { import = "lazyvim.plugins.extras.editor.refactoring" },
   { import = "lazyvim.plugins.extras.editor.telescope" },
