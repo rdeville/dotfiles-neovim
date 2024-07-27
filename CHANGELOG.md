@@ -1,12 +1,29 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.6 (2024-07-27)
+
+### 🩹 Patch
+
+  * ⚡️ Update plugins configuration and fix CI to avoid version bump (!15) by Romain Deville ([`c253907`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c253907dbd899cdd38da61ac631e79178841ff4b))
+  * ⚡️(plugins): Update aerial/edgy/git-blame/trouble configuration by Romain Deville ([`2f7b018`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2f7b01836069fe234f52fcbe398f431b7209b1f5)) 🔏
+
+### 🔊 Others
+
+  * 👷 Update layzlock CI to avoid version bump by Romain Deville ([`8d8f94a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/8d8f94acc5b479a114eb825e75403a5f25b65a5a)) 🔏
+  * 📸 Update lazylock by Romain Deville ([`893a687`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/893a68706eec97134ec2dc3524cb016310ce7fc2)) 🔏
+  * 🔥(plugins): Remove some plugins and minor config by Romain Deville ([`258035a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/258035a3292512327edd7753e18dedf53667af91)) 🔏
+
 ## v0.2.5 (2024-07-26)
 
 ### 🩹 Patch
 
   * 📌 Update lazy-lock.json from scheduled pipeline (!14) by dotgit_sync_token ([`3451507`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/345150705e322b71640433098072b5bb6ad826ba))
   * 📌 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`c28e223`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c28e2238368c3d35f44dfacb6883aedaa727621f))
+
+### 🔊 Others
+
+  * 🔖 v0.2.5 (NO-CI) by Python Semantic Release [bot] ([`88e5179`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/88e51795a086072f11414991534546206b2fb0ab))
 
 ## v0.2.4 (2024-07-25)
 
@@ -92,7 +109,6 @@
 ### 🩹 Patch
 
   * 🐛 Fix options after upgrade to nvim 0.10 (!2) by Romain Deville ([`df27e8d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/df27e8d8e10898d7162c9ad2917f1bb15f408497))
-  * 🐛(config): Fix options deprecated after nvim 0.10 by Romain Deville ([`c586c8e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c586c8e8e485fd65b191ca2a5da117352989fb52)) 🔏
   * 📌 Update pinned lazy.lock dependencies by Romain Deville ([`f5506a1`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f5506a1fc8e41ccd1231efcdad59895d349b1cb2)) 🔏
   * 📌 Update lazy lock by Romain Deville ([`2bee96b`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2bee96ba8b1c7badb3d4ded2e66fbf374785fbf9)) 🔏
   * 🔧 Update colorscheme location definition (!3) by Romain Deville ([`0169505`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0169505b84360d908763d58d716e196eb1e66f1a))
@@ -104,20 +120,6 @@
 
 ## v0.1.0 (2024-07-14)
 
-### ✨ Minor
-
-  * ✨ New config for neovim using lua (vim-&gt;neovim migration) (!1) by Romain Deville ([`0093c33`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0093c330a0b06c2752c3fc98d38abfd21dc8d2ea))
-
-### 🩹 Patch
-
-  * 📌 Add lazy-lock.json pinned plugins by Romain Deville ([`0f622e4`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0f622e4a7eb8deab1fc628a16186133aede75d8d)) 🔏
-
 ### 🔊 Others
 
   * 🔖 v0.1.0 (NO-CI) by Python Semantic Release [bot] ([`8664e07`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/8664e07dc76dd255c9babf93a5d3d702a314680d))
-
-## v0.0.0 (2024-07-09)
-
-### 🔊 Others
-
-  * 🎉 Initial Commit by Romain Deville ([`2b5617e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2b5617e79243cb9a095a3b925b2b30631efbd3a0)) 🔏
