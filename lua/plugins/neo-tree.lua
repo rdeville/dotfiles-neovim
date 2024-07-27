@@ -9,7 +9,7 @@ return {
       "s1n7ax/nvim-window-picker",
       config = function()
         require("window-picker").setup({
-          hint = "statusline-winbar",
+          hint = "floating-big-letter",
           filter_rules = {
             include_current_win = false,
             autoselect_one = true,
@@ -23,9 +23,21 @@ return {
                 "neo-tree-popup",
                 "notify",
                 "Outline",
+                "trouble",
               },
               -- if the buffer type is one of following, the window will be ignored
-              buftype = { "terminal", "quickfix" },
+              buftype = {
+                "terminal",
+                "quickfix",
+                "aerial",
+                "dbui",
+                "neo-tree",
+                "neo-tree-popup",
+                "notify",
+                "Outline",
+                "trouble",
+                "nofile"
+              },
             },
           },
           -- You can pass in the highlight name or a table of content to set as
