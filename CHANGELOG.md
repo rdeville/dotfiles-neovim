@@ -1,121 +1,54 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.8 (2024-08-24)
+
+### 🩹 Patch
+
+  * ⬆️ Update templated files from dotgit-sync (!35) by Romain Deville ([`78339e5`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/78339e5ffe1a4e21696eb024924f22dfd2a5f1d6))
+  * ⬆️ Update templated files from dotgit-sync by Dotgit Sync [bot] ([`343be64`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/343be6478e8097f243388479a5ee416eb30b9754))
+
+### 🔊 Others
+
+  * 💚 Update CI from DGS (!32) by Romain Deville ([`dbfff9e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/dbfff9ec1fe7d0599bc136bb0186086d7f8b49ad))
+  * 💚 Update CI from DGS by Romain Deville ([`3f67678`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/3f67678e60df0d184b5d3699d74c6e0bab7f8ca1)) 🔏
+  * 📸 Update lazy-lock.json from scheduled pipeline (!34) by dotgit_sync_token ([`0a1dbe7`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0a1dbe71c0471802bbb6cde320d92b85f401e1e2))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`94e50e8`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/94e50e8da2071fcde8a930f0f67960db0da040b2))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!33) by Romain Deville ([`62a6c62`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/62a6c6252ed4c86f082dbd436867d37fe5581c16))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`b514331`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/b514331fb60f6870ad11e11085e7ce095088b7c2))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!31) by dotgit_sync_token ([`cc0bcb0`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/cc0bcb06e9b8d8972b55119490b62bdab481c19c))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`65d5448`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/65d544896cccf3a9b4b594be6d7ead3e45b3f8c0))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!30) by dotgit_sync_token ([`416c73d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/416c73d14b36f63b060a570ad3d553a7a9b0b9a8))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`288ac99`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/288ac99705c81c4a619d17b85e460a7961c910b0))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!29) by Romain Deville ([`30e83c8`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/30e83c8139f92832aa2572bb1af283650b7022d3))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`f747e33`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f747e3338a081eb1a591bf1901194c699bf66648))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!28) by dotgit_sync_token ([`6e2fdc7`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/6e2fdc728f117f150e690610a2c7bf910508e497))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`5a64394`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/5a6439478fe2569701fde8f7eed0daeeb9ce0fda))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!27) by dotgit_sync_token ([`7936234`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/793623428beb4d9a2fcd5dfeace9170ff4cac79f))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`2b9b85d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2b9b85da8606e26a53a8c5bf6dd8e664f2125385))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!26) by dotgit_sync_token ([`a255084`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/a2550843f1b5d4bf2be49f60800744b190ed3362))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`b4d946a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/b4d946a94cd5720259fd6129e7083e1eebd7518d))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!25) by Romain Deville ([`f2d907d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f2d907d10469715914e529562cc82c77f7594bde))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`9829f8a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/9829f8a32d5d4f65cd438f5b4a4217d519353d75))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!24) by dotgit_sync_token ([`8b79ff0`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/8b79ff068fc9ebfcbdb0b1c8331499eca6525cd2))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`9f18c8b`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/9f18c8b5071edbe3682f92f6502650960950499d))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!23) by dotgit_sync_token ([`751ab52`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/751ab524819f8c74be530edaee078e8e84004161))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`e7af1c9`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e7af1c91a7cbea3bc7875948958a429e1ae2d70e))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!22) by dotgit_sync_token ([`1f85d66`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/1f85d66d701e00dc7a384f5f1ac522d40a63cae6))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`a047983`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/a047983972b11a7df12850a219e1ee403b11ec37))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!21) by dotgit_sync_token ([`e8547e9`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e8547e9fb62bbd0976475b96f8e2997c4acdde73))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`a71a87d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/a71a87d36ce01d4a95e764052676c07fc893f3a1))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!20) by dotgit_sync_token ([`66bfbc9`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/66bfbc935f3d33d7f3030a68de76810c5fa60a19))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`b1ca249`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/b1ca249705eacc1be16c9d6f2ab9f402f767215b))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!19) by dotgit_sync_token ([`ef671a6`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/ef671a6ef2d20bf96e16f38261c38ad9939cf333))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`bfbcbf2`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/bfbcbf2d10ff18f5142e97efe8225228c4848746))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!18) by dotgit_sync_token ([`b5590a9`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/b5590a948616bc169ab3412f82a4edf72c28c03f))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`335ca3f`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/335ca3f257d8886d751a59f921fe608a28301957))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!17) by Romain Deville ([`0fb94b3`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0fb94b3e18d0f8e6dab1e2e2a953d108a04020a4))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`5c6596c`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/5c6596c84879530817a4161debd9edb1ae0f7af2))
+
 ## v0.2.7 (2024-07-27)
 
-### 🩹 Patch
-
-  * 🔧(plugins): Update window-picker to ignore edgy buftype (!16) by Romain Deville ([`734b03a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/734b03a7d53f1c2491191608f7780f3fdc0d29fb))
-  * 🔧(plugins): Update window-picker to ignore edgy buftype by Romain Deville ([`4f23cca`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/4f23cca846e1cefcce88e70515d6d43669e9fc30)) 🔏
-
-## v0.2.6 (2024-07-27)
-
-### 🩹 Patch
-
-  * ⚡️ Update plugins configuration and fix CI to avoid version bump (!15) by Romain Deville ([`c253907`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c253907dbd899cdd38da61ac631e79178841ff4b))
-  * ⚡️(plugins): Update aerial/edgy/git-blame/trouble configuration by Romain Deville ([`2f7b018`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2f7b01836069fe234f52fcbe398f431b7209b1f5)) 🔏
-
 ### 🔊 Others
 
-  * 👷 Update layzlock CI to avoid version bump by Romain Deville ([`8d8f94a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/8d8f94acc5b479a114eb825e75403a5f25b65a5a)) 🔏
-  * 📸 Update lazylock by Romain Deville ([`893a687`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/893a68706eec97134ec2dc3524cb016310ce7fc2)) 🔏
-  * 🔖 v0.2.6 (NO-CI) by Python Semantic Release [bot] ([`917b1b9`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/917b1b9a404baccdffce84fa1e35fa55567956ce))
-  * 🔥(plugins): Remove some plugins and minor config by Romain Deville ([`258035a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/258035a3292512327edd7753e18dedf53667af91)) 🔏
-
-## v0.2.5 (2024-07-26)
-
-### 🩹 Patch
-
-  * 📌 Update lazy-lock.json from scheduled pipeline (!14) by dotgit_sync_token ([`3451507`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/345150705e322b71640433098072b5bb6ad826ba))
-  * 📌 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`c28e223`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c28e2238368c3d35f44dfacb6883aedaa727621f))
-
-### 🔊 Others
-
-  * 🔖 v0.2.5 (NO-CI) by Python Semantic Release [bot] ([`88e5179`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/88e51795a086072f11414991534546206b2fb0ab))
-
-## v0.2.4 (2024-07-25)
-
-### 🩹 Patch
-
-  * 📌 Update lazy-lock.json from scheduled pipeline (!13) by dotgit_sync_token ([`f04ce39`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f04ce39a8059054a744975838e2854ac1e2b460e))
-  * 📌 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`046b3b4`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/046b3b40342f7bb4c8bc1dd802e735d02864f869))
-
-### 🔊 Others
-
-  * 🔖 v0.2.4 (NO-CI) by Python Semantic Release [bot] ([`7a44c63`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/7a44c63853826692d417ca99d30e1e4eda29a6e7))
-
-## v0.2.3 (2024-07-25)
-
-### 🩹 Patch
-
-  * 📌 Update lazyvim.json and lock by Romain Deville ([`2c73947`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2c73947f7b3005f2752a8e1231bb07c069e4de5b)) 🔏
-  * 🔧(config/options): Deactivate autoformat and update CI (!12) by Romain Deville ([`dbd0c31`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/dbd0c31435c3f6f5e857c0d301e9f36c5f587cce))
-  * 🔧 Deactivate autoformat by Romain Deville ([`17eb9c2`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/17eb9c2af35c6532b65728e133e515777ca8da6b)) 🔏
-
-### 🔊 Others
-
-  * 💚 Allow CI to run on schedule by Romain Deville ([`42e2402`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/42e24023aeb62efc8fdffade4f44889d5bc2be99)) 🔏
-  * 🔖 v0.2.3 (NO-CI) by Python Semantic Release [bot] ([`d43f8a2`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/d43f8a2f54c615bd8d6cdfae5652ebd693ba05cb))
-
-## v0.2.2 (2024-07-22)
-
-### 🩹 Patch
-
-  * 📌 Update lazy-lock.json from scheduled pipeline (!11) by dotgit_sync_token ([`e0447e0`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e0447e03a997bb0151c741fd99888bb7dc8995a2))
-  * 📌 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`54a0c36`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/54a0c3694592e31a5403a60453a04ca292190307))
-
-### 🔊 Others
-
-  * 👷 Add CI to auto-update lazy-lock (!10) by Romain Deville ([`de78a03`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/de78a03be72372cbde6f6407c6830b9989aa5a7a))
-  * 👷 Add CI to auto-update lazy-lock by Romain Deville ([`41f39b6`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/41f39b6c32876d1ae7a3e28ff9c0348a661ce83b)) 🔏
-  * 🔖 v0.2.2 (NO-CI) by Python Semantic Release [bot] ([`eaabc68`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/eaabc68582b5ffb7f90685d3a8df5c023ffbf9cc))
-
-## v0.2.1 (2024-07-22)
-
-### 🩹 Patch
-
-  * 📌 Update lazy-lock.json from scheduled pipeline (!9) by dotgit_sync_token ([`993608f`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/993608f62916d3d397abf8e94afb320c9d0c0ab8))
-  * 📌 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`02bea7c`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/02bea7c2cdec6bd078921008433a35f78032269b))
-
-### 🔊 Others
-
-  * 🔖 v0.2.1 (NO-CI) by Python Semantic Release [bot] ([`63ce06e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/63ce06e11a203d2290e88c813147bcae3a8ca951))
-
-## v0.2.0 (2024-07-21)
-
-### ✨ Minor
-
-  * ✨ Add git-blame plugin and fix nix typos (!5) by Romain Deville ([`419d947`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/419d9473acd6bf61c992d198819e4b8d34fcf5b4))
-  * ✨(plugins): Add config plugin git-blame by Romain Deville ([`d831826`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/d8318267ae9fcc612c9b33ec83cdef60379c805d)) 🔏
-
-### 🩹 Patch
-
-  * ✏️ Update nix and hm module name by Romain Deville ([`c9bb2dc`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c9bb2dca1b2ce4c644b76c9a8a34be795cde45ea)) 🔏
-  * 📌 Update lazy.lock by Romain Deville ([`f25a434`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f25a434feab65fa11b3d454255e931b8b59247c7)) 🔏
-
-### 🔊 Others
-
-  * 📝 Update README.md from DGS update by Romain Deville ([`e2bb64a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e2bb64a998ae4d07cb37d0a435b1537db8a1dd26)) 🔏
-  * 🔖 v0.2.0 (NO-CI) by Python Semantic Release [bot] ([`adabcf1`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/adabcf106d4140f1499d1ef6ebfdc783d1bd653b))
-
-## v0.1.2 (2024-07-17)
-
-### 🩹 Patch
-
-  * 📌 Update lazy.lock by Romain Deville ([`af9659e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/af9659ee782e3794c35b3707889838010b0f9b0a)) 🔏
-  * 🔧 Fix keymaps which doesn&#39;t exists anymore (!4) by Romain Deville ([`e53b3ef`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e53b3ef6772aa86d506e845f10d28dc874cf6a09))
-  * 🔧 Fix keymaps which doesn&#39;t exists anymore by Romain Deville ([`f1d469a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f1d469a7cc04f93538d47706159e2427d5379c34)) 🔏
-
-### 🔊 Others
-
-  * 🔖 v0.1.2 (NO-CI) by Python Semantic Release [bot] ([`3d5b50e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/3d5b50e760c761eb7e782d367bc8b30f7afc610c))
-
-## v0.1.1 (2024-07-16)
-
-### 🩹 Patch
-
-  * 🔧 Update colorscheme location definition (!3) by Romain Deville ([`0169505`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0169505b84360d908763d58d716e196eb1e66f1a))
-
-### 🔊 Others
-
-  * 🔖 v0.1.1 (NO-CI) by Python Semantic Release [bot] ([`64f2699`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/64f2699544bd0433ceeec03b004e2d86aae6c6b4))
+  * 🔖 v0.2.7 (NO-CI) by Python Semantic Release [bot] ([`65b1de7`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/65b1de7d2d130ee53b2c74cca31e5419fa19a9f0))
