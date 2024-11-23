@@ -35,7 +35,7 @@ del("n", "<leader>`") -- { desc = "Switch to Other Buffer" })
 -- I prefer bc and BC (Buffer Close)
 del("n", "<leader>bd") -- { desc = "Delete Buffer" })
 del("n", "<leader>bD") -- { desc = "Delete Buffer and Window" })
-map("n", "<leader>bc", LazyVim.ui.bufremove, { desc = "Delete Buffer" })
+map("n", "<leader>bc", Snacks.bufdelete.delete, { desc = "Delete Buffer" })
 map("n", "<leader>bC", "<cmd>:bd<cr>", { desc = "Delete Buffer and Window" })
 
 -- Add undo break-points (I'll never use it)
