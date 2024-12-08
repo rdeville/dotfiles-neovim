@@ -1,6 +1,22 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.3.0 (2024-12-08)
+
+### ✨ Minor
+
+  * ✨ Add sops.nvim plugin (!55) by Romain Deville ([`729ca43`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/729ca43935ecb5e02042e7864ada562ac02614f4))
+  * ✨ Add sops.nvim plugin (with love) by Romain Deville ([`13a8a93`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/13a8a932330bbe725c373bc983d3de6d0bf37d32)) 🔏
+
+### 🩹 Patch
+
+  * ⬆️ Update lazy.lock manually by Romain Deville ([`c06d6c9`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c06d6c946f2dda6898326686735e8cad4b7f9b4e)) 🔏
+
+### 🔊 Others
+
+  * 📸 Update lazy-lock.json from scheduled pipeline (!54) by DOTGIT_SYNC_TOKEN ([`73ca1c0`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/73ca1c06ff71980267f7833a9aa25c68778a93e0))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`5d9b58f`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/5d9b58f13f4efa36ecbe6824938dcf88434e2d84))
+
 ## v0.2.12 (2024-11-29)
 
 ### 🩹 Patch
@@ -24,6 +40,7 @@
   * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`42fb458`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/42fb4587944e928dae16d231ce360e8f12df8dda))
   * 📸 Update lazy-lock.json from scheduled pipeline (!45) by dotgit_sync_token ([`6e6d5ef`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/6e6d5ef0924bac65d1624b0a65ecf632227041ed))
   * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`daa3a03`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/daa3a03643988939e770db4b12c2233223845cdb))
+  * 🔖 v0.2.12 (NO-CI) by Python Semantic Release [bot] ([`4079584`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/40795847370752a9dd3ff925abc1c9cdaa59a6c3))
   * 🔥 Remove plugin image.nvim from neo-tree deps (!50) by Romain Deville ([`809b8a9`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/809b8a9a3c8cf9bb21bbb83afd18e54d804fd996))
   * 🔥(plugins): Remove image.nvim from neo-tree deps by Romain Deville ([`b4a7df4`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/b4a7df4cebd990cbf0f7f873f13016d36e5e01ee)) 🔏
 
