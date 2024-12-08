@@ -13,6 +13,8 @@ return {
   { "raimon49/requirements.txt.vim" },
   { "dannywillems/vim-icalendar" },
   { "fladson/vim-kitty" },
+  -- Sops edit tools
+  { "lemarsu/sops.nvim" },
   -- LazyVim Deactivated Plugins
   {
     "garymjr/nvim-snippets",
