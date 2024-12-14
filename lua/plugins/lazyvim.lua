@@ -12,6 +12,7 @@ return {
   -- Import Extra Lazy Vim
   -- UI
   { import = "lazyvim.plugins.extras.ui.treesitter-context" },
+  { import = "lazyvim.plugins.extras.ui.mini-indentscope" },
 
   -- CODING
   { import = "lazyvim.plugins.extras.coding.luasnip" },
