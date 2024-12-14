@@ -1,6 +1,20 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.3.1 (2024-12-14)
+
+### 🩹 Patch
+
+  * ⬆️ Update lazyvim lock file by Romain Deville ([`4f38073`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/4f38073a09ab76d79dc849fe1858ee547da02485)) 🔏
+  * 🐛(plugins): Mainly fix indent plugins (!57) by Romain Deville ([`8c6a5fa`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/8c6a5faa3a1804b767fbba3e25989045d53404bd))
+  * 🐛(plugins): Fix indents plugins by Romain Deville ([`dd8decd`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/dd8decd59106b8da7d39faf7640f90ef6125b648)) 🔏
+  * 🔧(config): Update HighLight groups by Romain Deville ([`e629e64`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e629e642b308f2fe31a4bc35d643a5159418222c)) 🔏
+
+### 🔊 Others
+
+  * 📸 Update lazy-lock.json from scheduled pipeline (!56) by DOTGIT_SYNC_TOKEN ([`6429a66`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/6429a6691524ac44684e14219a85ca6c75e2bf32))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`44c47f0`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/44c47f0c135ad46d2aee1348109090ed1e14473a))
+
 ## v0.3.0 (2024-12-08)
 
 ### ✨ Minor
@@ -16,6 +30,7 @@
 
   * 📸 Update lazy-lock.json from scheduled pipeline (!54) by DOTGIT_SYNC_TOKEN ([`73ca1c0`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/73ca1c06ff71980267f7833a9aa25c68778a93e0))
   * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`5d9b58f`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/5d9b58f13f4efa36ecbe6824938dcf88434e2d84))
+  * 🔖 v0.3.0 (NO-CI) by Python Semantic Release [bot] ([`9b36ee6`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/9b36ee6cbcccfb7167eb8785bfa8a70193c7573b))
 
 ## v0.2.12 (2024-11-29)
 
