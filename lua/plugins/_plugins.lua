@@ -15,6 +15,8 @@ return {
   { "fladson/vim-kitty" },
   -- Sops edit tools
   { "lemarsu/sops.nvim" },
+  -- Notification
+  { "rcarriga/nvim-notify" },
   -- LazyVim Deactivated Plugins
   {
     "garymjr/nvim-snippets",
