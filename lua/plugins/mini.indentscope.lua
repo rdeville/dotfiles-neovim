@@ -3,7 +3,7 @@ return {
   opts = {
     symbol = "▍",
     draw = {
-      delay = 50,
+      delay = 0,
     },
   },
 }
