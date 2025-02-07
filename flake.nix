@@ -11,10 +11,6 @@
     nixpkgs = {
       url = "github:nixos/nixpkgs/nixos-unstable";
     };
-    # Flake Utils Lib
-    utils = {
-      url = "github:numtide/flake-utils";
-    };
   };
 
   outputs = inputs @ {self, ...}: let
@@ -41,16 +37,21 @@
       system:
         (pkgsForSystem system).alejandra
     );
-    homeManagerModules = {
-      neovimrc = import ./modules/home-manager.nix self;
-    };
-    homeManagerModule = self.homeManagerModules.neovimrc;
 
-    # Exemple of package
+    # PACKAGES
+    # ========================================================================
     packages = forAllSystems (system: rec {
       neovimrc = with import inputs.nixpkgs {inherit system;};
         callPackage ./package.nix {};
       default = neovimrc;
     });
+
+    # HOME MANAGER MODULES
+    # ========================================================================
+    homeManagerModules = {
+      neovimrc = import ./modules/home-manager.nix self;
+    };
+    homeManagerModule = self.homeManagerModules.neovimrc;
+
   };
 }
