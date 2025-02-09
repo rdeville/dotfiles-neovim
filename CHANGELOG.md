@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.4.7 (2025-02-09)
+
+### 🩹 Patch
+
+  * 📦️(nixos/hm): Update nixpkgs install with HM Module (!74) by Romain Deville ([`261f475`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/261f475452eac21ef26f96521545cf29148091a4))
+  * 📦️(nixos/hm): Update nixpkgs install with HM Module by Romain Deville ([`5b8bc5b`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/5b8bc5b5ff05d2a4d2831744149f8e3a81d101e4)) 🔏
+
 ## v0.4.6 (2025-02-09)
 
 ### 🩹 Patch
