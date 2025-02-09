@@ -1,6 +1,20 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.4.3 (2025-02-09)
+
+### 🩹 Patch
+
+  * ⬆️ Update lazy-lock.json by Romain Deville ([`6da9ae6`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/6da9ae609ff33c5540f9e81fb0c5fba412a29e67)) 🔏
+  * ⬆️ Update lazyvim.json to version 8 by Romain Deville ([`885d40e`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/885d40e3ac3059e92579e519c5ae5b5e8e2ee6b2)) 🔏
+  * 🔧 Update plugins order, make catpuccin default colorscheme (!70) by Romain Deville ([`326665b`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/326665b10cf6b5688548156160be859295e2e87a))
+  * 🔧(plugins): Update Lazy plugins order and add catppuccin colorscheme by Romain Deville ([`fb13c74`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/fb13c7463e5ae6492b204c99a7cb9551c6673961)) 🔏
+
+### 🔊 Others
+
+  * 🎨 Make catppuccin default colorscheme by Romain Deville ([`dda07ee`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/dda07ee3b90da98423dcdb966df71b508f2c7994)) 🔏
+  * 🔥(colorscheme): Remove useless colorscheme by Romain Deville ([`e63a9d0`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e63a9d01a332aafb1ffdd4fb82921469dce5b51b)) 🔏
+
 ## v0.4.2 (2025-02-08)
 
 ### 🩹 Patch
