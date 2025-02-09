@@ -25,4 +25,8 @@ return {
       },
     },
   },
+  keys = {
+    { "<leader>e", desc = "Explorer Snacks (root dir)", remap = false },
+    { "<leader>E", desc = "Explorer Snacks (cwd)", remap = false },
+  },
 }
