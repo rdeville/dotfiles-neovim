@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.4.5 (2025-02-09)
+
+### 🩹 Patch
+
+  * 🐛(plugins/explorer): Update keys to keep using NeoTree instead of snacks (!72) by Romain Deville ([`f537f1d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f537f1dc1994bf562097b7831c7e7848275661e2))
+  * 🐛(plugins/explorer): Update keys to keep using NeoTree instead of snacks by Romain Deville ([`a4caae1`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/a4caae186df0d53e3b4816063f223a4ae070db4a)) 🔏
+
 ## v0.4.4 (2025-02-09)
 
 ### 🩹 Patch
