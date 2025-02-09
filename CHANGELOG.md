@@ -1,6 +1,14 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.4.4 (2025-02-09)
+
+### 🩹 Patch
+
+  * ⬆️ Update lazy-lock.json by Romain Deville ([`aa905bc`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/aa905bca10a20cdae262b92d326e4f3138aabb97)) 🔏
+  * 🔧(plugins/snacks): Deactivate Snack Explorer mapping to keep neotree (!71) by Romain Deville ([`019b083`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/019b083f188cc7d3c18c391eaf5d15cfd469583f))
+  * 🔧(plugins/snacks): Deactivate &lt;leader&gt;e|E mapping for snack explorer by Romain Deville ([`5a58cdc`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/5a58cdcae98f5c1ea3b25e57c5d37d3d03118d69)) 🔏
+
 ## v0.4.3 (2025-02-09)
 
 ### 🩹 Patch
