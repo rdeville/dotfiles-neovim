@@ -31,4 +31,4 @@ require("lspconfig").lua_ls.setup({
 })
 
 -- Update colorscheme last to ensure all color set correctly
-vim.cmd("colorscheme tokyonight")
+vim.cmd("colorscheme catppuccin")
