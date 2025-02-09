@@ -1,6 +1,14 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.4.6 (2025-02-09)
+
+### 🩹 Patch
+
+  * 📦️(nixos/hm): Add nixpkgs installed for LSP with HM module by Romain Deville ([`d3ad4ac`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/d3ad4ac2923163d976d457a256172b4a24a68501)) 🔏
+  * 🔧 Deactivate some LSP I do not use &amp; add nixpkgs to HM module (!73) by Romain Deville ([`f5756b5`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f5756b5337d126385c19c60d9e61a461785b8ed3))
+  * 🔧(plugins/mason): Deactivate some LSP that I do not use by Romain Deville ([`21d9964`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/21d996416008ae9960243b7d1e4ecd3f04679a01)) 🔏
+
 ## v0.4.5 (2025-02-09)
 
 ### 🩹 Patch
