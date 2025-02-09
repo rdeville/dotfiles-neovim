@@ -13,6 +13,20 @@ in {
   };
 
   config = lib.mkIf cfg.enable {
+    home = {
+      packages = with pkgs; [
+        # Packages Needed for LSP
+        cargo
+        go
+        luarocks-nix
+        nodejs
+        python3
+        ruby
+        rustc
+        vue-language-server
+      ];
+    };
+
     xdg = {
       configFile = {
         nvim = {

@@ -120,7 +120,7 @@ return {
         -- Dockerfile linter, validate inline bash, written in Haskell.
         "hadolint",
         -- The Grammar Checker for Developers.
-        "harper-ls",
+        -- "harper-ls",
         -- A command to format HCL files
         "hclfmt",
         -- A language server that offers Helm support in early development - programmed in Go.
@@ -264,7 +264,7 @@ return {
         -- Snyk CLI scans and monitors your projects for security vulnerabilities
         "snyk",
         -- The language server follows the Language Server Protocol and integrates with Snyk Open Source, Snyk Infrastructure as Code and Snyk Code. For the former two, it uses the Snyk CLI as a data provider, for the latter it is connecting directly to the Snyk Code API.
-        "snyk-ls",
+        -- "snyk-ls",
         -- Sourcery is a tool available in your IDE, GitHub, or as a CLI that suggests refactoring improvements to help make your code more readable and generally higher quality.
         -- "sourcery",
         -- Awesome Spectral JSON/YAML linter with OpenAPI/AsyncAPI support. Spectral is a flexible object linter with out of the box support for OpenAPI v2 and v3, JSON Schema, and AsyncAPI.
