@@ -17,12 +17,17 @@ in {
       packages = with pkgs; [
         # Packages Needed for LSP
         cargo
+        fd # better find, needed for some plugins
         go
+        lua5_1
         luarocks-nix
         nodejs
+        nil # nix language server
         python3
+        python3Packages.pip
         ruby
         rustc
+        tree-sitter
         vue-language-server
       ];
     };
