@@ -11,6 +11,9 @@ local highlight = {
 return {
   "snacks.nvim",
   opts = {
+    explorer = {
+      replace_netrw = false,
+    },
     indent = {
       indent = {
         hl = highlight,
