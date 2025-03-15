@@ -7,8 +7,6 @@ return {
         "actionlint",
         -- A CLI tool for code structural search, lint and rewriting. Written in Rust.
         -- "ast-grep",
-        -- Language Server for AWK.
-        "awk-language-server",
         -- Bacon is a background rust code checker
         -- "bacon",
         -- Rust diagnostic provider based on Bacon
@@ -46,7 +44,7 @@ return {
         -- Formatter for Go code that enforces the CockroachDB Style Guide.
         -- "crlfmt",
         -- A Spell Checker for Code.
-        "cspell",
+        -- "cspell",
         -- Language Server Protocol implementation for CSS, SCSS & LESS.
         -- "css-lsp",
         -- Autocompletion and go-to-definition for project-wide CSS variables.
@@ -119,8 +117,6 @@ return {
         -- "gotestsum",
         -- Dockerfile linter, validate inline bash, written in Haskell.
         "hadolint",
-        -- The Grammar Checker for Developers.
-        -- "harper-ls",
         -- A command to format HCL files
         "hclfmt",
         -- A language server that offers Helm support in early development - programmed in Go.
