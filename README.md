@@ -40,8 +40,21 @@ dotfiles](https://framagit.org/rdeville-public/dotfiles/vim)).
 
 ---
 <!-- BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
-<!--
 ## 📌 Prerequisites
+
+* NeoVim: `>= 0.10`, build with LuaJIT
+
+From [LazyVim, a neovim Distribution](https://www.lazyvim.org/):
+
+* Git >= **2.19.0** (for partial clones support)
+* a [Nerd Font](https://www.nerdfonts.com/) **_(optional)_**
+* a **C** compiler for `nvim-treesitter`. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements)
+
+You may need additional dependencies for some plugins installation, such as:
+
+* NodeJS: `>= 22.0`
+* GoLang: `>= 1.24`
+* Python3: `>= 3.12`
 
 ## ⚙️ Install
 
@@ -49,7 +62,6 @@ dotfiles](https://framagit.org/rdeville-public/dotfiles/vim)).
 
 ## ✅ Run tests
 
--->
 <!-- END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
 ## 🤝 Contributing
 
