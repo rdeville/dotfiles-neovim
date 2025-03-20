@@ -1,6 +1,19 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.4.9 (2025-03-20)
+
+### 🩹 Patch
+
+  * ⚡️(plugins/md-preview): Update plugins config by Romain Deville ([`de63049`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/de63049098c5fff403306deb97980ea64255fdf9)) 🔏
+  * ⬆️ Update lazy-lock.json by Romain Deville ([`201bc49`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/201bc497338cd5bd3718a145ddfec83dcdb7267a)) 🔏
+  * 🐛(plugins): Fix markdown-preview installation process (!82) by Romain Deville ([`c601f1b`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c601f1bda4e4dc77ff824b3dc40361bf7498bc64))
+
+### 🔊 Others
+
+  * 📝 Update README with prerequisite by Romain Deville ([`2004017`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2004017bc3f7971aff720eb462493785fd1fa410)) 🔏
+  * 🔨 Update devbox.json from DGS template by Romain Deville ([`3cc202d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/3cc202dd4ed4be13a4d2ef23e8e6b701d9a51c53)) 🔏
+
 ## v0.4.8 (2025-03-15)
 
 ### 🩹 Patch
