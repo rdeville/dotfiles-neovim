@@ -10,6 +10,7 @@ return {
   { "raimon49/requirements.txt.vim" },
   { "dannywillems/vim-icalendar" },
   { "fladson/vim-kitty" },
+  { 'nfnty/vim-nftables' },
   -- Sops edit tools
   { "lemarsu/sops.nvim" },
   -- Notification
