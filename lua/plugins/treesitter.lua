@@ -17,7 +17,15 @@ return {
         "typescript",
         "vim",
         "yaml",
+        "d2",
       },
     },
+  },
+  {
+  "ravsii/tree-sitter-d2",
+    dependencies = {
+        "nvim-treesitter/nvim-treesitter"
+      },
+    build = "make nvim-install",
   },
 }
