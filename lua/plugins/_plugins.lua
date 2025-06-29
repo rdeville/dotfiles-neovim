@@ -11,6 +11,8 @@ return {
   { "dannywillems/vim-icalendar" },
   { "fladson/vim-kitty" },
   { 'nfnty/vim-nftables' },
+  -- Git Diff Tool
+  { "sindrets/diffview.nvim" },
   -- Sops edit tools
   { "lemarsu/sops.nvim" },
   -- Notification
