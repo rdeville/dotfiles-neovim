@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.6.1 (2025-06-29)
+
+### 🩹 Patch
+
+  * 🐛(plugins/treesitter): Fix treesitter configuration for d2lang (!100) by Romain Deville ([`acd6d01`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/acd6d01fe969e776192bf4b20333e4dba8672ad4))
+  * 🐛(plugins/treesitter): Fix treesitter configuration for d2lang by Romain Deville ([`3a5ac58`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/3a5ac58cec69b906f6dc720eb335041ed362ce96)) 🔏
+
 ## v0.6.0 (2025-06-29)
 
 ### ✨ Minor
