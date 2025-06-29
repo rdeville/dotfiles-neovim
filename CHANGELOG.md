@@ -1,6 +1,18 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.6.0 (2025-06-29)
+
+### ✨ Minor
+
+  * ✨(plugins): Add diffview plugins (!99) by Romain Deville ([`dbec471`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/dbec4713bc683d2b0e4fa8307789192342f505b2))
+  * ✨(plugins): Add diffview plugins configuration by Romain Deville ([`1464488`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/1464488697efd2310cff77d8e728a235df0fedd0)) 🔏
+
+### 🩹 Patch
+
+  * ⬆️ Update flake.lock by Romain Deville ([`d975a4a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/d975a4ae1c74aedb515fcd13010f7e27b4d9bc4d)) 🔏
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`45eee29`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/45eee2902241fea1798738567dde502b910f07af)) 🔏
+
 ## v0.5.0 (2025-06-28)
 
 ### ✨ Minor
