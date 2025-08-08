@@ -13,8 +13,6 @@ return {
   { 'nfnty/vim-nftables' },
   -- Git Diff Tool
   { "sindrets/diffview.nvim" },
-  -- Sops edit tools
-  { "lemarsu/sops.nvim" },
   -- Notification
   { "rcarriga/nvim-notify" },
   -- LazyVim Deactivated Plugins

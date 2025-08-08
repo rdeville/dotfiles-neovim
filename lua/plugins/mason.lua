@@ -120,7 +120,7 @@ return {
         -- A command to format HCL files
         "hclfmt",
         -- A language server that offers Helm support in early development - programmed in Go.
-        "helm-ls",
+        -- "helm-ls",
         -- Language Server Protocol implementation for HTML.
         "html-lsp",
         -- A normaliser/beautifier for HTML that also understands embedded Ruby. Ideal for tidying up Rails templates.
