@@ -1,6 +1,23 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.6.3 (2025-08-28)
+
+### 🩹 Patch
+
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`646dad8`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/646dad8fa1a37bc816216add24b3096116cebfe5)) 🔏
+  * 🐛(plugins/colorscheme): Add temporary fix to catpuccin colorscheme (!109) by Romain Deville ([`194e5e8`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/194e5e8d9df8d6d3d7a229e4869cfc22d0b25244))
+  * 🐛(plugins/colorscheme): Add temporary fix to catpuccin colorscheme by Romain Deville ([`94d6b64`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/94d6b640e89afe2d49fda75832ba1968c539cc40)) 🔏
+
+### 🔊 Others
+
+  * 📸 Update lazy-lock.json from scheduled pipeline (!108) by DOTGIT_SYNC_TOKEN ([`0cba410`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0cba410bb331e36f9809c03ea0311edf070283b8))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`df1ed02`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/df1ed024ac2e1de3ff25f4aa2fb129782a98340d))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!107) by DOTGIT_SYNC_TOKEN ([`7bd60f1`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/7bd60f1bd11ab88914591732729ca955bcc4f3d7))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`8011442`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/801144286173a7ac979397bc3039e8ae9889e7b2))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!106) by DOTGIT_SYNC_TOKEN ([`1d0d9c6`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/1d0d9c68946bde860dedc9b89dbd10571f0bb274))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`5870654`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/5870654851caae819830c0f005e3adeae3cbd2fd))
+
 ## v0.6.2 (2025-08-08)
 
 ### 🩹 Patch
