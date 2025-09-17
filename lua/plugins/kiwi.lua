@@ -1,37 +1,78 @@
-local wikis_name = {
-  { name = "perso", key_suffix = "p" },
-  { name = "work", key_suffix = "w" },
-}
+-- To add your custom Wiki, you can add following lines to a file in
+-- ~/.local/share/nvim/init.lua
+-- local kiwiConfig = {
+--   {
+--     -- Name of the wiki
+--     name = "work",
+--     -- Path to the wiki, relative to $HOME
+--     path = "cloud/user-pro",
+--     -- Shortcut prefixed with leader to go to this Wiki
+--     shortcut = "iw",
+--     -- Hostnames that will have a Wiki
+--     hostnames = {
+--       "work-station",
+--     },
+--   },
+--   {
+--     -- Name of the wiki
+--     name = "perso",
+--     -- Path to the wiki, relative to $HOME
+--     path = "cloud/user",
+--     -- Shortcut prefixed with leader to go to this Wiki
+--     shortcut = "ip",
+--     -- Hostnames that will have a Wiki
+--     hostnames = {
+--       "work-station",
+--       "perso-laptop",
+--       "perso-station",
+--     },
+--   },
+-- }
+
+-- Check user custom file exists, if not, do not load plugin
+local kiwiConfigPath = vim.fn.stdpath("data") .. "/kiwi.lua"
+local file = io.open(kiwiConfigPath, "r")
+if not file then
+  io.close(file)
+  return {}
+else
+  io.close(file)
+end
+local kiwiConfig = loadfile(kiwiConfigPath)()
+
+local function strInTable(tbl, str)
+  for _, value in ipairs(tbl) do
+    if value == str then
+      return true
+    end
+  end
+  return false
+end
 
 local function opts()
   local out = {}
-  for _, wiki in pairs(wikis_name) do
-    local path = os.getenv("HOME") .. "/" .. wiki.name
-    local lib = require("lib")
-    if lib.is_dir(path .. "/") then
-      table.insert(out, {
-        name = wiki.name,
-        path = path,
-      })
+
+  for _, value in ipairs(kiwiConfig) do
+    if strInTable(value.hostnames, vim.fn.hostname()) then
+      table.insert(out,
+        {
+          name = value.name,
+          path = value.path,
+        }
+      )
     end
   end
   return out
 end
 
 local function keys()
-  local out = {
-    "<leader>T",
-    ':lua require("kiwi").todo.toggle()<cr>',
-    desc = "Toggle Markdown Task",
-  }
-  for _, wiki in pairs(wikis_name) do
-    local lib = require("lib")
-    local path = os.getenv("HOME") .. "/" .. wiki.name
-    if lib.is_dir(path .. "/") then
+  local out = {}
+  for _, value in ipairs(kiwiConfig) do
+    if strInTable(value.hostnames, vim.fn.hostname()) then
       table.insert(out, {
-        "<leader>w" .. wiki.key_suffix,
-        ':lua require("kiwi").open_wiki_index()<cr>',
-        desc = "Open Wiki " .. wiki.name,
+        "<leader>" .. value.shortcut,
+        ':lua require("kiwi").open_wiki_index("' .. value.name .. '")<cr>',
+        desc = "Open " .. value.name .. " Wiki index",
       })
     end
   end
@@ -40,10 +81,7 @@ end
 
 return {
   "serenevoid/kiwi.nvim",
-  lazy = false,
-  dependencies = {
-    "nvim-lua/plenary.nvim",
-  },
   opts = opts(),
   keys = keys(),
+  lazy = true,
 }
