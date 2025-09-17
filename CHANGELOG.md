@@ -1,6 +1,14 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.6.5 (2025-09-17)
+
+### 🩹 Patch
+
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`9c55ca8`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/9c55ca8b7ea1f4b12024f33b5a54625549760a80)) 🔏
+  * 👽️ Update plugins source due to LazyVim update (!114) by Romain Deville ([`d4ff445`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/d4ff445e8f6d56a62eba0dfa394b090d9c31a2b2))
+  * 👽️(lua/plugins): Update plugins name due to LazyVim update by Romain Deville ([`df07daf`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/df07daf48c260894f4dfa974a747b1f8f7a1cbfa)) 🔏
+
 ## v0.6.4 (2025-09-17)
 
 ### 🩹 Patch
