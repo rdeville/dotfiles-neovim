@@ -1,6 +1,25 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.6.4 (2025-09-17)
+
+### 🩹 Patch
+
+  * ➖(lua/plugins): Remove unused lush plugin by Romain Deville ([`71ab65f`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/71ab65f2589c70a88027a690405a5eada3036cc6)) 🔏
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`036e130`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/036e1305ac7c8f1bf7f50d2fbf66166f7484da7e)) 🔏
+  * 🔧(plugin/kiwi): Update wiki keys and opts configuration (!113) by Romain Deville ([`79f5918`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/79f59184f401c0732e8a71194ff23fca5eb206ad))
+  * 🔧(plugin/kiwi): Update wiki keys and opts configuration by Romain Deville ([`a1979b7`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/a1979b7c7500e9d9f1c9231a2b46ce74dedbc008)) 🔏
+
+### 🔊 Others
+
+  * 📸 Update lazy-lock.json from scheduled pipeline (!112) by DOTGIT_SYNC_TOKEN ([`18c4cf8`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/18c4cf80c0cd62b60e8529585df180d52673aedf))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`805c18b`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/805c18b979072c0ca2bbff5d4cf4373d841f8e5c))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!111) by DOTGIT_SYNC_TOKEN ([`0d920af`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0d920afefc99c1470df28e978ea684fc8937c463))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`617e67b`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/617e67b96476f38f49d16d542db9d379f0180830))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!110) by DOTGIT_SYNC_TOKEN ([`1431a74`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/1431a7410535afcb525157a7179e8560ec4314ce))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`6a7f314`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/6a7f31432cea7b53e7fb724ba88d401aa8e8963b))
+  * 🔥(lua/lib): Remove unused libs by Romain Deville ([`c96182d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c96182d54a72f011115382c237657b0d351d793f)) 🔏
+
 ## v0.6.3 (2025-08-28)
 
 ### 🩹 Patch
