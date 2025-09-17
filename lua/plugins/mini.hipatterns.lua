@@ -20,7 +20,7 @@ end
 
 return {
   {
-    "echasnovski/mini.hipatterns",
+    "nvim-mini/mini.hipatterns",
     opts = {
       highlighters = {
         material_color = { pattern = "%S+", group = material_clr_group },
