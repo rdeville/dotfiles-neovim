@@ -1,6 +1,14 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.6.7 (2025-09-26)
+
+### 🩹 Patch
+
+  * ⬆️ Update flake.lock and lazy-lock.json (!116) by Romain Deville ([`929eb13`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/929eb1333732c358e431a2e6cb9fc9c30e285325))
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`79fd0be`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/79fd0bece512799802ab07aa0a66a0517b3242bc)) 🔏
+  * ⬆️ Update flake.lock by Romain Deville ([`e9ca719`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e9ca719d08e89d65764bfff177dda9bb137fdd48)) 🔏
+
 ## v0.6.6 (2025-09-26)
 
 ### 🩹 Patch
