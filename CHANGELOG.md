@@ -1,6 +1,14 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.6.6 (2025-09-26)
+
+### 🩹 Patch
+
+  * ⚡️(plugins/colorscheme): Remove catpuccin workaround due to API changes (!115) by Romain Deville ([`fb0345b`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/fb0345b57f9ab2bd282c42ba867a2568378fcedc))
+  * ⚡️(plugins/colorscheme): Remove catpuccin workaround due to API changes by Romain Deville ([`69dfd66`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/69dfd66f08d2fc826003077ef674f7e68718ef75)) 🔏
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`bace5ba`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/bace5ba8637d8adaa8587bde3788fea2d4fab9a6)) 🔏
+
 ## v0.6.5 (2025-09-17)
 
 ### 🩹 Patch
