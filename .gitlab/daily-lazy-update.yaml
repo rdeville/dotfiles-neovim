@@ -29,7 +29,7 @@ Update Lazy Lockfile:
       else
         git checkout -b "${LAZY_LOCK_BRANCH}"
       fi
-    - nvim --headless "+Lazy! sync" +qa &>/dev/null
+    - nvim --headless "+Lazy! sync" +qa
     - |-
       if ! git diff --quiet
       then
