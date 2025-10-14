@@ -1,5 +1,4 @@
 return {
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   -- Simple plugin without config
   { "rhysd/committia.vim" },
   -- Filetype Syntax

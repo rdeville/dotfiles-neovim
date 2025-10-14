@@ -106,7 +106,7 @@ require("lazy").setup({
     fallback = false,
   },
   install = {
-    colorscheme = { "catppuccin", "tokyonight", "habamax" },
+    colorscheme = { "tokyonight", "habamax" },
   },
   -- Automatically check for plugin updates
   checker = { enabled = true },
