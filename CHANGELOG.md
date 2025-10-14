@@ -1,6 +1,14 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.7.1 (2025-10-14)
+
+### 🩹 Patch
+
+  * ⬆️ Update flake.lock by Romain Deville ([`8671137`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/8671137f6a1f4b137a69166fb39d2b2abd0a02b3)) 🔏
+  * 🔧(plugins/mason): Remove rnix-lsp since repos is now archived (!119) by Romain Deville ([`1614c74`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/1614c74bdba4869ec98f0717f3e284c26fb0889f))
+  * 🔧(plugins/mason): Remove rnix-lsp since repos is now archived by Romain Deville ([`619d3f3`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/619d3f34cfe18e05627c96c85b9afcfca4c9d87e)) 🔏
+
 ## v0.7.0 (2025-10-14)
 
 ### ✨ Minor
