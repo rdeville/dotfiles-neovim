@@ -1,6 +1,24 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.7.0 (2025-10-14)
+
+### ✨ Minor
+
+  * ✨(plugins/transparent): Add nvim transparency through new plugin (!118) by Romain Deville ([`bfbfe56`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/bfbfe564d48f5368064ac2c5236cc18c19863fd4))
+  * ✨(plugins/transparent): Add transparency in nvim with new plugin by Romain Deville ([`5b9631a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/5b9631a71ee4db56d1061443cfa2245be03f724b)) 🔏
+
+### 🩹 Patch
+
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`d788c6b`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/d788c6b6fdddeb8d32bae5228433eef745844107)) 🔏
+  * 👽️ Drop `require(&#34;lspconfig&#34;)`, do not use it and replaced by `vim.lsp.config()` by Romain Deville ([`6c5fe8d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/6c5fe8d98f2d69362448d8cca436433efd685dc0)) 🔏
+
+### 🔊 Others
+
+  * 💚(CI): Remove redirect to &amp;&gt;/dev/null in lazy update CI (!117) by Romain Deville ([`7692c0d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/7692c0d507b08f5fac7c589e2d2d82924f041b8a))
+  * 💚(CI): Remove redirect to &amp;&gt;/dev/null in lazy update CI by Romain Deville ([`8235ab8`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/8235ab8517cb2ff474caf0385b367605173e55aa)) 🔏
+  * 🔥(plugins): Drop duplicate `catppuccin` plugins conf by Romain Deville ([`e3257c5`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e3257c579afd6800a168be317fe95d7cfae28073)) 🔏
+
 ## v0.6.7 (2025-09-26)
 
 ### 🩹 Patch
