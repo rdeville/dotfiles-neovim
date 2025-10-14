@@ -244,7 +244,7 @@ return {
         -- ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint.
         -- "revive",
         -- Language Server for Nix.
-        "rnix-lsp",
+        -- "rnix-lsp",
         -- An extremely fast Python linter and code formatter, written in Rust.
         -- "ruff",
         -- A Language Server Protocol implementation for Ruff - An extremely fast Python linter, written in Rust.
