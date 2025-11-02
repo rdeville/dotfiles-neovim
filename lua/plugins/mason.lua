@@ -62,7 +62,7 @@ return {
         -- Diagnostic language server that integrates with linters.    Language
         "diagnostic-languageserver",
         -- A language server for TeX and friends
-         "digestif",
+        -- "digestif",
         -- docformatter automatically formats docstrings to follow a subset of the PEP 257 conventions.
         -- "docformatter",
         -- A language server for Docker Compose.
@@ -162,19 +162,19 @@ return {
         -- A language server that offers Lua language support - programmed in Lua.
         "lua-language-server",
         -- A tool for linting and static analysis of Lua code.
-        -- "luacheck",
+        "luacheck",
         -- Code formatter for Lua.
-        -- "luaformatter",
+        "luaformatter",
         -- API and CLI for generating a markdown TOC (table of contents) for a README or any markdown files.
         "markdown-toc",
         -- A Node.js style checker and lint tool for Markdown/CommonMark files.
-        "markdownlint",
+        -- "markdownlint",
         -- A fast, flexible, configuration-based command-line interface for linting Markdown/CommonMark files with the markdownlint library
-        -- "markdownlint-cli2",
+        "markdownlint-cli2",
         -- Visualize your Markdown as mindmaps.    Category
-        -- "markmap-cli",
+        "markmap-cli",
         -- Markdown LSP server providing completion, cross-references, diagnostics, and more.
-        -- "marksman",
+        "marksman",
         -- An HTML linter for all markup developers.
         "markuplint",
         -- Format markdown code blocks using your favorite code formatters.
@@ -246,11 +246,11 @@ return {
         -- Language Server for Nix.
         -- "rnix-lsp",
         -- An extremely fast Python linter and code formatter, written in Rust.
-        -- "ruff",
+        "ruff",
         -- A Language Server Protocol implementation for Ruff - An extremely fast Python linter, written in Rust.
         -- "ruff-lsp",
         -- A blazing-fast modern Lua linter written in Rust.
-        -- "selene",
+        "selene",
         -- ShellCheck, a static analysis tool for shell scripts.
         "shellcheck",
         -- The corrective bash syntax highlighter.
@@ -296,11 +296,11 @@ return {
         -- Terraform Language Server.
         "terraform-ls",
         -- An implementation of the Language Server Protocol for LaTeX.
-        -- "texlab",
+        "texlab",
         -- The pluggable natural language linter for text and markdown.
-        -- "textlint",
+        "textlint",
         -- Language server for text spell and grammar check with various tools.
-        -- "textlsp",
+        "textlsp",
         -- A Pluggable Terraform Linter.
         "tflint",
         -- Security scanner for your Terraform code
