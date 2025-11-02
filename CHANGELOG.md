@@ -1,6 +1,14 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.7.2 (2025-11-02)
+
+### 🩹 Patch
+
+  * ⬆️ Update lazy-lock.json by Romain Deville ([`91cc398`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/91cc398672ab891389448dd9c4898de567266991)) 🔏
+  * 🔧(plugins/mason): Update list of installed LSP (!120) by Romain Deville ([`53a81f8`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/53a81f8c06a78408c2284a7f4f9419457c5fb6bf))
+  * 🔧(plugins/mason): Update installed LSP by Romain Deville ([`18515b0`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/18515b05d87e2752dca3487455a2519545c411bb)) 🔏
+
 ## v0.7.1 (2025-10-14)
 
 ### 🩹 Patch
