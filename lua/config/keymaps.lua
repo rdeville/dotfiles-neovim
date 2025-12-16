@@ -1,6 +1,7 @@
 ---@diagnostic disable: undefined-global
 -- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
+-- Default keymaps that are always set:
+-- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 -- This file is automatically loaded by lazyvim.config.init
 
@@ -17,11 +18,13 @@ del("n", "<C-Up>")
 del("n", "<C-Down>")
 del("n", "<C-Right>")
 del("n", "<C-Left>")
--- Replace above with <ctrl> + capital(hjkl)
-map("n", "<C-S-k>", "<cmd>resize +2<cr>", { desc = "Increase Window Height" })
-map("n", "<C-S-j>", "<cmd>resize -2<cr>", { desc = "Decrease Window Height" })
-map("n", "<C-S-l>", "<cmd>vert resize -2<cr>", { desc = "Decrease Window Width" })
-map("n", "<C-S-h>", "<cmd>vert resize +2<cr>", { desc = "Increase Window Width" })
+-- Replace above with <ctrl> + <meta> + capital(hjkl)
+map("n", "<M-C-K>", "<cmd>resize +5<cr>", { desc = "Increase Window Height" })
+map("n", "<M-C-J>", "<cmd>resize -5<cr>", { desc = "Decrease Window Height" })
+map("n", "<M-C-L>", "<cmd>vertical resize -5<cr>", { desc = "Decrease Window Width" })
+map("n", "<M-C-H>", "<cmd>vertical resize +5<cr>", { desc = "Increase Window Width" })
+-- Resize vertically to 100
+map("n", "<M-C-O>", "<cmd>vertical resize 100<cr>", { desc = "Increase Window Width" })
 
 -- Buffers
 map("n", "<S-h>", "<cmd>bprevious<cr>", { desc = "Prev Buffer" })
@@ -108,15 +111,8 @@ del("n", "<leader><tab>d")
 map("n", "<leader><tab>c", "<cmd>tabclose<cr>", { desc = "Close Tab" })
 del("n", "<leader><tab>[")
 map("n", "<leader><tab>k", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
-
--- # Moving Around, Tabs, Windows and Buffers
--- Another way to move between tabs, use Shift+Alt+<Direction> to change active one
-map("n", "<C-M-h>", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
-map("n", "<C-M-l>", "<cmd>tabnext<cr>", { desc = "Next Tab" })
-map("n", "<C-M-c>", "<cmd>tabclose<cr>", { desc = "Close Tab" })
-map("n", "<C-M-n>", "<cmd>tabnew<cr>", { desc = "New Tab" })
-
--- stylua: ignore end
+del("n", "<leader><tab><tab>")
+map("n", "<leader><tab>n", "<cmd>tabnex<cr>", { desc = "New Tab" })
 
 -- Show treesitter capture group for textobject under cursor.
 -- Useful when creating a colorscheme

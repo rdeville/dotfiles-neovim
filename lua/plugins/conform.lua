@@ -9,9 +9,9 @@ return {
           stdin = false,
         },
       },
-        formatters_by_ft = {
-          hcl = { "hcl_fmt" },
-        },
+      formatters_by_ft = {
+        hcl = { "hcl_fmt" },
+      },
     },
   },
 }

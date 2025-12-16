@@ -42,16 +42,73 @@
     # ========================================================================
     packages = forAllSystems (system: rec {
       neovimrc = with import inputs.nixpkgs {inherit system;};
-        callPackage ./package.nix {};
+        stdenv.mkDerivation {
+          name = "neovimrc";
+          src = ./.;
+          installPhase = ''
+            mkdir -p $out;
+            cp -r \
+              README.md \
+              LICENSE* \
+              CHANGELOG.md \
+              CODE_OF_CONDUCT.md \
+              AUTHORS \
+              init.lua \
+              lua \
+              $out
+          '';
+        };
       default = neovimrc;
     });
 
     # HOME MANAGER MODULES
     # ========================================================================
     homeManagerModules = {
-      neovimrc = import ./modules/home-manager.nix self;
+      neovimrc = {
+        pkgs,
+        lib,
+        config,
+        ...
+      }: let
+        cfg = config.neovimrc;
+      in {
+        options = {
+          neovimrc = {
+            enable = lib.mkEnableOption "Enable the installation of the package";
+          };
+        };
+
+        config = lib.mkIf cfg.enable {
+          home = {
+            packages = with pkgs; [
+              # Packages Needed for LSP
+              cargo
+              fd # better find, needed for some plugins
+              go
+              lua5_1
+              luarocks-nix
+              nodejs
+              nil # nix language server
+              python3
+              python3Packages.pip
+              ruby
+              rustc
+              statix
+              tree-sitter
+              vue-language-server
+            ];
+          };
+
+          xdg = {
+            configFile = {
+              nvim = {
+                source = lib.mkDefault self.packages.${pkgs.stdenv.hostPlatform.system}.default;
+              };
+            };
+          };
+        };
+      };
     };
     homeManagerModule = self.homeManagerModules.neovimrc;
-
   };
 }

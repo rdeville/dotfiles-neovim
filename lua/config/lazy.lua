@@ -105,9 +105,6 @@ require("lazy").setup({
     -- Fallback to git when local plugin doesn't exist
     fallback = false,
   },
-  install = {
-    colorscheme = { "tokyonight", "habamax" },
-  },
   -- Automatically check for plugin updates
   checker = { enabled = true },
   performance = {
