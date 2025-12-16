@@ -14,17 +14,10 @@ end
 -- I DON'T LIKE WRAP !
 vim.api.nvim_clear_autocmds({ group = "lazyvim_wrap_spell" })
 
-vim.api.nvim_create_autocmd({ "VimLeavePre" }, {
-  group = augroup("close_edgy"),
-  callback = function()
-    require("edgy").close()
-  end,
-})
-
 vim.api.nvim_create_autocmd({ "WinEnter" }, {
   group = augroup("resize_window"),
   callback = function()
-    vim.o.winwidth = 100
+    vim.o.winwidth = 89
     vim.o.winminwidth = 10
     -- Make ActiveWindow not transparent
     vim.api.nvim_set_hl(0, "ActiveWindow", { bg = "#111111" })
