@@ -1,6 +1,21 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.7.3 (2025-12-16)
+
+### 🩹 Patch
+
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`19a2a97`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/19a2a97e58849979dfacfd02fa5789e07eb6dd2d)) 🔏
+  * ⬆️ Update flake.lock by Romain Deville ([`893a175`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/893a17569b9000b150f540ed35bed07c20f1cf9f)) 🔏
+  * 🔧 Update keymaps, remove useless plugins and minor tweak (!121) by Romain Deville ([`96237c7`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/96237c7e9ebd0088afbb97944747b543a792abbb))
+  * 🔧(config): Update keymaps to better handle split and minor config tweak by Romain Deville ([`a75ff56`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/a75ff56f1f6d8cf2eb91e6f10c5ac6cf1cb2b200)) 🔏
+
+### 🔊 Others
+
+  * ♻️(hm): Remove home-manager dedicate folder into flake.nix by Romain Deville ([`c197df8`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/c197df842f0bbaec587465fea98bd3140524f0fb)) 🔏
+  * 💡(config): Fix comment typos by Romain Deville ([`5e0addf`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/5e0addf07ec7b550d707356692c9b71b0920b121)) 🔏
+  * 🔥(config): Remove tokyonight colorscheme since I use catppuccin by Romain Deville ([`5d0cfae`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/5d0cfae0501afeef95a54eeb85da227ab2c262c7)) 🔏
+
 ## v0.7.2 (2025-11-02)
 
 ### 🩹 Patch
