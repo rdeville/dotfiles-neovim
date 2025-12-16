@@ -1,5 +1,6 @@
 -- Options are automatically loaded before lazy.nvim startup
--- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
+-- Default options that are always set:
+-- https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Hide deprecation warnings
 vim.g.deprecation_warnings = true
 -- Deactivate lazy autoformat
@@ -9,7 +10,7 @@ local opt = vim.opt
 --[[
 # DESCRIPTION
 
-Set the main VIM and NeoVim variables optained from command ':options'.
+Set the main VIM and NeoVim variables obtained from command ':options'.
 Not every variables configuration are set in this file. Variable which use the
 default value and which are dangerous to modify or which can be breaken if
 set.
@@ -117,7 +118,7 @@ opt.breakindent = true
 opt.breakindentopt = "min:20,shift:0"
 --  Which characters might cause a line break
 opt.breakat = "^I!*-+;:,./?\\"
--- tring to put before wrapped screen lines
+-- string to put before wrapped screen lines
 opt.showbreak = ">>"
 -- Minimal number of columns to scroll horizontally
 opt.sidescroll = 0
