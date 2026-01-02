@@ -26,10 +26,16 @@ return {
     },
     opts = {
       defaults = {
-        layout_strategy = "horizontal",
+        layout_strategy = "vertical",
         layout_config = {
-          prompt_position = "top",
-          preview_width = 100,
+          prompt_position = "bottom",
+          vertical = {
+            preview_cutoff = 20,
+            preview_height = 0.75,
+            height = 0.75,
+            width = 0.75,
+            prompt_position = "bottom",
+          };
         },
         sorting_strategy = "ascending",
         winblend = 0,
