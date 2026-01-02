@@ -1,6 +1,16 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.7.4 (2026-01-02)
+
+### 🩹 Patch
+
+  * ⚡️ Improve telescope config and autoresize, update lock files (!122) by Romain Deville ([`3ebf3bf`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/3ebf3bf3311c461d20121d78b94980b2cb2bca51))
+  * ⚡️(cfg/autocmds): Improve auto window resize by Romain Deville ([`0c56bf3`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0c56bf3c928b44799b545657ddc137b42898319a)) 🔏
+  * ⬆️ Update flake.lock by Romain Deville ([`af637d9`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/af637d99ba908ac50d5943722f0a2cfbdfc40897)) 🔏
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`eeed199`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/eeed199ba5570455cbd39b77cced38d66f66e31b)) 🔏
+  * 🔧(plugins/telescope): Update telescope config to use vertical prompt by Romain Deville ([`ff0eb59`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/ff0eb593a120f26e21590304ea23f8a246549dae)) 🔏
+
 ## v0.7.3 (2025-12-16)
 
 ### 🩹 Patch
