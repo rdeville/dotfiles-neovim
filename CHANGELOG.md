@@ -1,6 +1,14 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.8.1 (2026-01-12)
+
+### 🩹 Patch
+
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`92ea39f`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/92ea39f3ae27a05b07aba36bc2479031c514e8ce)) 🔏
+  * 🔧(plugins/lazy): Add Lazyvim Lang dotnet (!124) by Romain Deville ([`02c0076`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/02c0076b6f1e2132424a94efa150a04fd6974e24))
+  * 🔧(plugins/lazy): Add Lazyvim Lang dotnet by Romain Deville ([`b33f0a4`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/b33f0a47d8e785f89b5b690b2f9b32d71514dfd9)) 🔏
+
 ## v0.8.0 (2026-01-12)
 
 ### ✨ Minor
