@@ -1,6 +1,21 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.8.0 (2026-01-12)
+
+### ✨ Minor
+
+  * ✨(plugins): Add Lazyvim Lang Go plugin (!123) by Romain Deville ([`be3c09b`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/be3c09bfe153ea42b69e5e3896a18732eb5af0fd))
+  * ✨(plugins): Add Lazyvim Language Go plugins by Romain Deville ([`8b41a93`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/8b41a931d109e15252a67a19e81dc58f9db0e035)) 🔏
+
+### 🩹 Patch
+
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`9166f59`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/9166f5935f5a7b92e5d431d79f25f708297e9f65)) 🔏
+
+### 🔊 Others
+
+  * 🔨 Add .envrc by Romain Deville ([`014a01d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/014a01dcbada8c50a0defd3a6d6320e8ba3ed60d)) 🔏
+
 ## v0.7.4 (2026-01-02)
 
 ### 🩹 Patch
