@@ -83,12 +83,13 @@
             packages = with pkgs; [
               # Packages Needed for LSP
               cargo
-              fd # better find, needed for some plugins
+              dotnet-sdk
+              fd
               go
               lua5_1
               luarocks-nix
               nodejs
-              nil # nix language server
+              nil
               python3
               python3Packages.pip
               ruby
