@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.8.3 (2026-01-18)
+
+### 🩹 Patch
+
+  * 🔧(plugins): Remove kiwi plugin since I do not use it (!126) by Romain Deville ([`37d0b0b`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/37d0b0b852249600e017fbf6887ff374edb1a3b0))
+  * 🔧(plugins): Remove kiwi plugin since I do not use it by Romain Deville ([`e35dd69`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e35dd6976ca86ff8d21913ec874450cdfc7571c4))
+
 ## v0.8.2 (2026-01-18)
 
 ### 🩹 Patch
