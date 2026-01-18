@@ -332,7 +332,7 @@ opt.confirm = true
 -- Ring the bell for error messages
 opt.errorbells = false
 -- Use a visual bell instead of beeping
-opt.visualbell = true
+opt.visualbell = false
 -- Do not ring the bell for these reasons
 opt.belloff = ""
 -- List of preferred languages for finding help
@@ -500,7 +500,7 @@ opt.ttimeout = true
 -- Time in msec for 'timeout'
 opt.timeoutlen = 1000
 -- Time in msec for 'ttimeout'
-opt.ttimeoutlen = -1
+opt.ttimeoutlen = 0
 
 -- ## READING AND WRITING FILES
 -- Enable using settings from modelines when reading a file (local to buffer)
