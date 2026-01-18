@@ -1,6 +1,21 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.8.2 (2026-01-18)
+
+### 🩹 Patch
+
+  * ⚡️(lua/telescope): Configure a new layout for telescope more compact by Romain Deville ([`24a87d9`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/24a87d9158930bcbcb352af994554f59a4cbf907)) 🔏
+  * ⬆️(flake): Update flake.lock by Romain Deville ([`da8a1e5`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/da8a1e5fc28e09653a1fcef102f401cf27d3dc3b)) 🔏
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`fbee0f4`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/fbee0f4f909fa9ffb6c08071c2975adc7868c2f6)) 🔏
+  * 🐛(flake): Add dotnet-sdk to be installed with this config (!125) by Romain Deville ([`73f0f85`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/73f0f856474140314c440007c5f6ba6039a088c3))
+  * 🐛(cfg/options): Remove visualbell and set ttimeout to 0 by Romain Deville ([`2efd5a8`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/2efd5a8b4c590098a03a79c4651ff4a3a04d4208)) 🔏
+  * 🐛(flake): Add dotnet-sdk to be installed with this config by Romain Deville ([`08b50e2`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/08b50e2dd12702866ceb244d70daf82086ca5207)) 🔏
+
+### 🔊 Others
+
+  * 🎨(plugin/edgy): Format plugin configuration by Romain Deville ([`acdd1d3`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/acdd1d3cf796c3995dd8a99432b5626a6cc332bc)) 🔏
+
 ## v0.8.1 (2026-01-12)
 
 ### 🩹 Patch
