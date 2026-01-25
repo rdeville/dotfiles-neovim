@@ -1,6 +1,18 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.9.0 (2026-01-25)
+
+### ✨ Minor
+
+  * ✨ Add HM Module Options &amp; Improve Telescope configuration (!127) by Romain Deville ([`1715874`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/1715874b250740a9949c919fed0ab4feb15f0397))
+  * ✨(flake): Update neovimrc package to not install dotfile but only pkgs by Romain Deville ([`963e4e9`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/963e4e9eeade16a254fd3572ba456a6c12fe98d8)) 🔏
+
+### 🩹 Patch
+
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`0ff0af7`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0ff0af76f0dc45184dfc82247849a8510a90aa1c)) 🔏
+  * 🔧(plugins/telescope): Change keys for telescope to find files by Romain Deville ([`4f76fdb`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/4f76fdbfc9717609879a8c4d0a4b0b6480850df5)) 🔏
+
 ## v0.8.3 (2026-01-18)
 
 ### 🩹 Patch
