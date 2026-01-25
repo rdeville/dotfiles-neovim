@@ -75,6 +75,9 @@
         options = {
           neovimrc = {
             enable = lib.mkEnableOption "Enable the installation of the package";
+            pkgsOnly = lib.mkEnableOption ''
+              Enable only the installation of required packages for plugins
+            '';
           };
         };
 
@@ -86,6 +89,7 @@
               dotnet-sdk
               fd
               go
+              gnumake
               lua5_1
               luarocks-nix
               nodejs
@@ -100,7 +104,7 @@
             ];
           };
 
-          xdg = {
+          xdg = lib.mkIf (! cfg.pkgsOnly) {
             configFile = {
               nvim = {
                 source = lib.mkDefault self.packages.${pkgs.stdenv.hostPlatform.system}.default;
