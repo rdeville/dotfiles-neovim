@@ -11,21 +11,10 @@ return {
       "MunifTanjim/nui.nvim",
     },
     keys = {
-      {
-        "<leader>fg",
-        function()
-          builtin.live_grep()
-        end,
-        desc = "Grep files in directory",
-      },
-      {
-        "<leader>fl",
-        function()
-          builtin.current_buffer_fuzzy_find()
-        end,
-        desc = "Grep in current buffer",
-      },
-    },
+      { "<leader>fg", LazyVim.pick("files"), desc = "Find Files (Root Dir)" },
+      { "<leader>fF", LazyVim.pick("files", { root = false }), desc = "Find Files (cwd)" },
+      { "<leader>ff", "<cmd>Telescope git_files<cr>", desc = "Find Files (git-files)" },
+    };
     opts = {
       defaults = {
         layout_strategy = "flex",
