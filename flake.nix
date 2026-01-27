@@ -83,25 +83,35 @@
 
         config = lib.mkIf cfg.enable {
           home = {
-            packages = with pkgs; [
-              # Packages Needed for LSP
-              cargo
-              dotnet-sdk
-              fd
-              go
-              gnumake
-              lua5_1
-              luarocks-nix
-              nodejs
-              nil
-              python3
-              python3Packages.pip
-              ruby
-              rustc
-              statix
-              tree-sitter
-              vue-language-server
-            ];
+            packages = with pkgs;
+              [
+                # Packages Needed for LSP
+                cargo
+                fd
+                go
+                gnumake
+                lua5_1
+                luarocks-nix
+                nodejs
+                nil
+                python3
+                python3Packages.pip
+                ruby
+                rustc
+                statix
+                tree-sitter
+                vue-language-server
+              ]
+              ++ (
+                if ! stdenv.hostPlatform.isDarwin
+                then [
+                  dotnet-sdk
+                ]
+                else lib.warn ''
+                  Current OS is Darwin, dotnet-sdk will not be install through neovimrc homeManagerModules !
+                  Ensure you install it from your size.
+                '' []
+              );
           };
 
           xdg = lib.mkIf (! cfg.pkgsOnly) {
