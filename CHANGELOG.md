@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.9.1 (2026-01-27)
+
+### 🩹 Patch
+
+  * 🔧(flake): Update HM module to not install dotnet-sdk on Darwin (!128) by Romain Deville ([`1b9fac2`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/1b9fac23fde6083fadf9a1e8734501fff112ad42))
+  * 🔧(flake): Update HM module to not install dotnet-sdk on Darwin by Romain Deville ([`d96793c`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/d96793c34765035e7b8a18f4cb84fe2197d43e09)) 🔏
+
 ## v0.9.0 (2026-01-25)
 
 ### ✨ Minor
