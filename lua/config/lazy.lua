@@ -22,6 +22,13 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- ONLY WORK IF REPOS CLONE DIRECTLY !!
+local extraPluginsPath = vim.fn.stdpath("config") .. "/lua/extra"
+local extraPlugins = {}
+if (vim.uv or vim.loop).fs_stat(extraPluginsPath) then
+  extraPlugins = { import = "extra" }
+end
+
 require("lazy").setup({
   spec = {
     { "LazyVim/LazyVim" },
@@ -92,6 +99,8 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.util.rest" },
 
     -- Import/override with your plugins
+    extraPlugins,
+    -- Import/override with your plugins
     { import = "plugins" },
   },
   defaults = {
@@ -99,16 +108,11 @@ require("lazy").setup({
     -- Always use the latest git commit
     version = false,
   },
-  dev = {
-    ---Directory where you store your local plugin projects
-    path = vim.fn.stdpath("config") .. "/plugins",
-    -- For example {"folke"}
-    patterns = {},
-    -- Fallback to git when local plugin doesn't exist
-    fallback = false,
-  },
   -- Automatically check for plugin updates
-  checker = { enabled = true },
+  checker = {
+    enabled = true,
+    notify = false,
+  },
   performance = {
     rtp = {
       -- Disable some rtp plugins
