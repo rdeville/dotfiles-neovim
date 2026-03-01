@@ -44,6 +44,14 @@ vim.api.nvim_create_autocmd({ "WinEnter" }, {
   end,
 })
 
+-- Close Neotree when saving session with Persistence
+local group = vim.api.nvim_create_augroup('PersistenceSession', { clear = true })
+vim.api.nvim_create_autocmd("User", {
+  group = group,
+  pattern = "PersistenceSavePre",
+  callback = function() vim.cmd("Neotree close") end
+})
+
 -- COMMAND
 vim.api.nvim_create_user_command("Bclose", function()
   vim.cmd("exec 'bp | sp | bn | bd'")

@@ -1,5 +1,3 @@
-<!-- BEGIN DOTGIT-SYNC BLOCK MANAGED -->
-<!-- markdownlint-disable -->
 # Contributing to NeoVim Config
 
 First off, thanks for taking the time to contribute! ❤️
@@ -24,6 +22,8 @@ The community looks forward to your contributions. 🎉
 > - Mention the project at local meetups and tell your friends/colleagues
 
 ## Table of Contents
+
+<!-- markdownlint-disable -->
 <!-- mdtoc-start -->
 
 * [Code Of Conduct](#code-of-conduct)
@@ -48,18 +48,21 @@ The community looks forward to your contributions. 🎉
   * [Branches Names](#branches-names)
   * [Commit Messages](#commit-messages)
   * [Merge Requests / Pull Requests (Mr/Pr)](#merge-requests--pull-requests-mrpr)
-* [Join The Project Team](#join-the-project-team)
+* [Join The Project](#join-the-project)
 * [Attribution](#attribution)
 
 <!-- mdtoc-end -->
+<!-- markdownlint-enable -->
+
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the [Code of
 Conduct][CODE_OF_CONDUCT]. By participating, you are expected to uphold this
 code.
 
-Please report unacceptable behavior to :
-* [📧 abuse+code@romaindeville.fr \<abuse+code@romaindeville.fr\>](mailto:abuse+code@romaindeville.fr)
+Please report unacceptable behavior to:
+
+- [📧 abuse+code@romaindeville.fr](mailto:abuse+code@romaindeville.fr)
 
 ## I Have a Question
 
@@ -75,7 +78,7 @@ It is also advisable to search the internet for answers first.
 If you then still feel the need to ask a question and need clarification, we
 recommend the following:
 
-- Open an [new issue][new_issues_page].
+- Open a [new issue][new_issues_page].
 - Provide as much context as you can about what you're running into.
 - Provide project and platform versions depending on what seems relevant.
 
@@ -87,27 +90,20 @@ We will then take care of the issue as soon as possible.
 
 When contributing to this project, you must agree that you have authored 100% of
 the content, that you have the necessary rights to the content and that the
-content you contribute may be provided under the project licence.
+content you contribute may be provided under the project license.
 
 > ⚠️ REMARK
 >
-> If this repo is either :
+> If this repo is either:
 >
 > - Under copyright (either personal or belong to an organization)
 > - Not licensed or does not have an open-source or free license
 >
-> Please, do not send its code or any of its content (such as documentation)
-> to an "Artificial Intelligence" provided by a private company through a SaaS
-> (such as Copilot, etc) to help you to contribute.
+> Please, do not send or share its code or any of its content (such as
+> documentation) to anyone or any company.
 >
-> The aim of such notice is to avoid leaking private code to a company without
-> copyright agreements or code usage agreements.
->
-> While we are not currently unable to test weither you use such tools or not,
-> this notice is solely based on trust.
->
-> However, you are free to use an "AI" if you self-host such tools or are sure
-> that there is (almost) absolutely no risks of content leakage.
+> The aim of such notice is to avoid leaking private code without copyright
+> agreements or code usage agreements.
 
 ### Reporting Bugs
 
@@ -147,9 +143,9 @@ as fast as possible.
 >
 > You must never report security related issues, vulnerabilities or bugs
 > including sensitive information to the issue tracker, or elsewhere in public.
-> Instead sensitive issues must be sent by email to any of the maintainers :
+> Instead sensitive issues must be sent by email to any of the maintainers:
 >
-> * [📧 Romain Deville \<code@romaindeville.fr\>](mailto:code@romaindeville.fr)
+> - [📧 Romain Deville <code@romaindeville.fr>](mailto:code@romaindeville.fr)
 
 We use issues to track bugs and errors.
 If you run into an issue with the project:
@@ -200,7 +196,7 @@ the community to understand your suggestion and find related suggestions.
   merits of this feature. Keep in mind that we want features that will be useful
   to the majority of our users and not just a small subset. If you're just
   targeting a minority of users, consider writing an add-on/plugin library if
-  the project provide such functionality.
+  the project provides such functionality.
 
 [issues_page]: https://framagit.org/rdeville-public/dotfiles/neovim/-/issues
 
@@ -213,15 +209,15 @@ Enhancement suggestions are tracked as [issues][issues_page].
 - Provide a **step-by-step description of the suggested enhancement** in as many
   details as possible.
 - **Describe the current behavior** and **explain which behavior you expected to
-  see instead** and why. At this point you can also tell which alternatives do not
-  work for you.
+  see instead** and why. At this point you can also tell which alternatives do
+  not work for you.
 - You may want to **include screenshots or screen recordings** which help you
-  demonstrate the steps or point out the part which the suggestion is related to.
-  Please provide such media as ligthweight as possible (through GIFs for
+  demonstrate the steps or point out the part which the suggestion is related
+  to. Please provide such media as lightweight as possible (through GIFs for
   instance).
-- **Explain why this enhancement would be useful** to most NeoVim Config users. You
-  may also want to point out the other projects that solved it better and which
-  could serve as inspiration.
+- **Explain why this enhancement would be useful** to most NeoVim Config users.
+  You may also want to point out the other projects that solved it better and
+  which could serve as inspiration.
 
 #### Which IDE/Text editor should I use ?
 
@@ -229,12 +225,12 @@ If you want to contribute, you can use any IDE or text editor you want (vim,
 emacs, vscode, phpstorm, notepad, notepad++, etc).
 
 Configuration Dotfiles (usually files starting with a dot, `.`, e.g.
-`.editorconfig`) should be IDE agnostics.
+`.editorconfig`) should be IDE-agnostics.
 
-The repo **WILL NEVER store IDE spcific files** such as `.vscode/`,
-`.vimrc.local`, etc. Normally, this should be ensure with the `.gitignore` file.
-Any contribution adding those files will automatically be refused while these
-files are present.
+The repo **WILL NEVER store IDE specific files** such as `.vscode/`,
+`.vimrc.local`, etc. Normally, this should be ensured with the `.gitignore`
+file. Any contribution adding those files will automatically be refused while
+these files are present.
 
 The aim of this rule is to let anyone use his/her prefer IDE/Text editor with
 his/her preferred plugins.
@@ -244,7 +240,7 @@ read provided dotfiles (such as `.editorconfig`, `.eslintrc`, `.yamllint`, etc)
 to conform to the repository [Styleguides](#styleguides).
 
 Nevertheless, if your IDE is not able to respect configuration dotfiles,
-compliancy agains this configuration dotfiles will solely rely on you.
+compliancy against this configuration dotfiles will solely rely on you.
 
 If you are not sure if you manage to be compliant with the configuration
 dotfiles, the CI will ensure it, i.e. the CI will fail if your contribution does
@@ -254,12 +250,12 @@ not respect configuration dotfiles.
 
 #### Create your own fork
 
-Unless you are able to create branch on the main repository, to contribute, you
-will need to create of fork of this repository. Then we strongly encourage you
-to create a developpement branch (and if you want, following the [Branches Names
-Styleguide](#branches-names)).
-This will allow you to be able to fetch the default branch of the repository to
-your own fork without messing with your future contribution.
+Unless you are able to create a branch on the main repository, to contribute,
+you will need to create a fork of this repository. Then we strongly encourage
+you to create a development branch (and if you want, following the [Branches
+Names Styleguide](#branches-names)). This will allow you to be able to fetch the
+default branch of the repository to your own fork without messing with your
+future contribution.
 
 Once done, you can work on your own fork/branch and add commit following [Commit
 Messages Styleguides](#commit-messages).
@@ -270,9 +266,10 @@ Requests / Pull Requests Styleguides](#merge-requests--pull-requests-mrpr)
 
 #### Setup development environment
 
-In order to setup your development environment, please refers to the repository
-[documentation][documentation] or the [README][README] of the repository. There should be instruction about
-installing development environment and runnings tests normally.
+In order to setup your development environment, please refer to the repository
+[documentation][documentation] or the [README][README] of the repository. There
+should be instruction about installing development environment and running
+tests normally.
 
 If not, does not hesitate to open an [issue][new_issues_page] to ask maintainers
 to provide some.
@@ -283,30 +280,9 @@ to provide some.
 
 #### No `docs` folder in the repo
 
-If no folder `docs` is present in the repo, the documentation rely only in the
+If no folder `docs` is present in the repo, the documentation rely only on the
 README of the repo as well as some other files such as CODE_OF_CONDUCT or
-CONTRIBUTING. These file are partially (or entirely) managed by an external tool
-called [dotgit-sync][dgs] which allow us to propagate templated files among
-multiple repos.
-Depending on which part of the file you want to improve, the contribution
-process is not the same:
-
-- If you want to update content between excluded block tag (see example code
-  below), you can do it directly on the README since content below tags are
-  excluded from dotgit-sync management.
-
-  ```markdown
-<!-- BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
-
-  Some README content excluded from dotgit-sync management
-
-<!-- END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
-
-  This content, outside exclusion tags, is also managed in the dotgit-sync-templates
-  repository.
-  ```
-
-[dgs]: https://framagit.org/rdeville-public/programs/dotgit-sync
+CONTRIBUTING.
 
 #### `docs` folder in the repo
 
@@ -326,45 +302,45 @@ Request / Pull Request according to provided [Styleguides](#styleguides).
 
 Basic language styleguides are provided by `.editorconfig` file.
 
-Language specific styleguides are normally specify either in :
+Language specific styleguides are normally specify either in:
 
 - STYLEGUIDE file at the root of the repo
 - Styleguide section of the documentation
 
-If not, check if there is some "dotfiles" (i.e. file usually starting with a dot,
-`.`, e.g. `.editorconfig`) at the root of the repository for the language used
-in the reposiotory (e.g. `.eslintrc` for node, `.pylint` for python, `.tf-lint`
-for hcl files, `.yamllint` for yaml files, `.markdownlint` for markdown, etc)
-which will describe styleguides applied to the repository.
+If not, check if there is "dotfiles" (i.e. file usually starting with a
+dot, `.`, e.g. `.editorconfig`) at the root of the repository for the language
+used in the repository (e.g. `.eslintrc` for node, `.pylint` for python,
+`.tf-lint` for hcl files, `.yamllint` for yaml files, `.markdownlint` for
+markdown, etc) which will describe styleguides applied to the repository.
 
-If any of the above does not exists, you can follow existing codes
+If any of the above does not exist, you can follow existing code
 styleguides by reading through the code and/or contribute to the repository to
-propose a styleguide through an new issue or a new Merge Request / Pull Request.
+propose a styleguide through a new issue or a new Merge Request / Pull Request.
 
 ### Branches Names
 
 Some branches, tags or releases names are protected and can only be created by
-either maintainers or bots. These are :
+either maintainers or bots. These are:
 
 - Branches:
   - `main`, usually the default branch,
   - `release/*`, usually the branch use to track releases,
 - Tags/Releases:
-  - `v*`, creating when releasing repository
+  - `v*`, created when releasing repository
   - `*`, forbidden
 
-In other case, you are free to use any branch naming you want as long as its
-start with a semantic word, for instances :
+In other case, you are free to use any branch naming you want as long as it
+starts with a semantic word, for instances:
 
 - `feat/add-my-new-feat`
 - `feat/improve-documentation`
-- `fix/external-api-chagnes`
+- `fix/external-api-changes`
 - `chore/fix-typo`
 - `chore/bump-dep-versions`
 
-**REMARK**: This only apply to people who are able to create branch on the main
-repository. If you contribute through a fork, you are free to use any branch
-naming you want on you own fork.
+**REMARK**: This only applies to people who are able to create a branch on the
+main repository. If you contribute through a fork, you are free to use any
+branch naming you want on your own fork.
 
 ### Commit Messages
 
@@ -374,14 +350,14 @@ Do not hesitate to rework your git commit history.
 This project follows [gitmoji specification](https://gitmoji.dev/specification)
 for its commit message, i.e. (from gitmoji specifications):
 
-> A gitmoji commit message consists is composed using the following pieces:
+> A gitmoji commit message is composed using the following pieces:
 >
 > - intention: The intention you want to express with the commit, using an
 >   emoji from the list. Either in the :shortcode: or unicode format.
 > - scope: An optional string that adds contextual information for the scope of
 >   the change.
 > - message: A brief explanation of the change.
-> - body: A optional more detailled message about the change
+> - body: An optional more detailed message about the change
 >
 > ```text
 > <intention> [scope?][:?] <message>
@@ -401,16 +377,17 @@ for its commit message, i.e. (from gitmoji specifications):
 
 Prefer using **unicode** char as `<intention>` instead of shortcode.
 
-Commit message format are enforced by a CI, if any your commit does not follow
-this guideline, the CI will fail and your contribution will not be able to be
-merged to the target ref.
+Commit message format is enforced by a CI, if any of your commits do not
+follow this guideline, the CI will fail and your contribution will not be able
+to be merged to the target ref.
 
 **Why using Gitmoji ?**
 
-Tags and releases versionning of the repos is done via parsing list of commits
+Tags and releases versioning of the repos is done via parsing list of commits
 since the last released. Depending on Gitmoji used, tags and releases will
-automatically updated according to the semantic versionning definition provided
-by the [gitmoji.json][gitmoji_json_semver] file provided by the gitmoji repository.
+automatically updated according to the semantic versioning definition provided
+by the [gitmoji.json][gitmoji_json_semver] file provided by the gitmoji
+repository.
 
 [gitmoji_json_semver]: https://github.com/carloscuesta/gitmoji/blob/master/packages/gitmojis/src/gitmojis.json
 
@@ -420,69 +397,69 @@ Every contribution should be done via a Merge Request / Pull Request. It is
 forbidden to commit directly to the default or releases branches, even for
 maintainers (unless exceptional and urgent fix is needed).
 
-The Merge Request / Pull Requests should create a merge commit (unless specify
+The Merge Request / Pull Requests should create a merge commit (unless specified
 by maintainers) and should not squash commits (as the commits are needed for the
-tags/releases automatic versionning).
+tags/releases automatic versioning).
 
 CI will only run on MR/PR proposed to the repos either automatically or on
 demand depending on the repo configuration.
 
 Usually, MR/PR will not be merged if the following conditions are not met:
 
-- CI Pipelines **MUST SUCCED** (unless specify by maintainers)
+- CI Pipelines **MUST SUCCEED** (unless specified by maintainers)
 - All discussions **MUST BE RESOLVED**
-- MR/PR is **UP-TO-DATE** against the target ref (unless specify, for instance,
-  if project reach critical number of contribution/contributor and this rules is
-  not manageable anymore).
-- Last commit should be **APPROUVED** by a maintainer.
+- MR/PR is **UP-TO-DATE** against the target ref (unless specified, for
+  instance, if the project reaches a critical number of contributors and
+  these rules are not manageable anymore).
+- Last commit should be **APPROVED** by a maintainer.
 
 Moreover, MR/PR title must also follow [Commit Message](#commit-messages)
-styleguide, since the MR/PR will generate a commit used to automatic
-tags/releases versionning.
+styleguide, since the MR/PR will generate a commit used for automatic
+tags/releases versioning.
 
-Finally, in the body of the MR/PR describe in details (if needed) what your
-MR/PR add to the repository and if it resolves an existing issue, please mention
-it in the description following [Gitlab closing pattern][gitlab_closing_pattern].
+Finally, in the body of the MR/PR describe in detail (if needed) what your
+MR/PR adds to the repository and if it resolves an existing issue, please
+mention it in the description following
+[Gitlab closing pattern][gitlab_closing_pattern].
 
-Below is a example of MR/PR commit (title and body of the commit being
+Below is an example of MR/PR commit (title and body of the commit being
 respectively the title and the body of the MR/PR):
 
 ```text
 ✨(scope): Add best feature of the world
 
-This add the ability to manage X while not creating conflict with Y.
+This adds the ability to manage X while not creating conflict with Y.
 
 Fixes #<issue_number> #<another_issue_number>
 ```
 
 [gitlab_closing_pattern]: https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#default-closing-pattern
 
-## Join The Project Team
+## Join The Project
 
-If you want to join the project team, please contact by email any of the
-maintainers with the following email title :
+If you want to join the project team, please contact the maintainers by email
+with the following email title:
 
 ```text
-[NeoVim Config] - Join The Project Team
+[NeoVim Config] - Join The Project
 ```
 
-The content of the email is left to you. For instance, you can provide :
+The content of the email is left to you. For instance, you can provide:
 
-- A list (exhaustive or not) of your contribution,
+- A list (exhaustive or not) of your contributions,
 - Your motivation,
-- The role that interest you (i.e. issues triage, MR/PR reviewer on all the
+- The role that interests you (i.e. issues triage, MR/PR reviewer on all the
   code, only the documentation, maintainer, etc)
 
-This will allow to start a discussion with you and the maintainers to decide if
-you will be able to join the project team and specify which roles will be
+This will allow us to start a discussion with you and the maintainers to decide
+if you will be able to join the project team and specify which roles will be
 attributed to you.
 
 ## Attribution
 
 This guide is adapted from the generator provided on the
-[contributing.md](https://contributing.md/generator) that we gladly thanks ❤️!
+[contributing.md](https://contributing.md/generator) that we gladly thank ❤️!
 
 [README]: https://framagit.org/rdeville-public/dotfiles/neovim/-/blob/main/README.md
 [CODE_OF_CONDUCT]: https://framagit.org/rdeville-public/dotfiles/neovim/-/blob/main/CODE_OF_CONDUCT.md
 [documentation]: https://framagit.org/rdeville-public/dotfiles/neovim
-<!-- END DOTGIT-SYNC BLOCK MANAGED -->
