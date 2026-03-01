@@ -1,6 +1,29 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.10.0 (2026-03-01)
+
+### ✨ Minor
+
+  * ✨ Improve session restore and add local extra plugins possibilities (!131) by Romain Deville ([`e31bbb8`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/e31bbb82295f4cd707db16747753394604f202dd))
+  * ✨(plugins): Add possibility to setup extra plugins when clone directly by Romain Deville ([`7a7afca`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/7a7afca8321f2d58e751c802876a2e57bfa11b47)) 🔏
+
+### 🩹 Patch
+
+  * ⚡️(config): Add autocmd to close nerd-tree when quitting for session restoration by Romain Deville ([`4134138`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/413413891ac88f5bd7df94c813aa834f6b6882bd)) 🔏
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`ffe9edb`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/ffe9edbce2553e29fa73fb8b50d46013877708e0)) 🔏
+
+### 🔊 Others
+
+  * 🎨(flake): Run nix fmt on flake.nix file by Romain Deville ([`0876b7a`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/0876b7a3b6ea52b7140d0a26852f46d934de434f)) 🔏
+  * 📝 Update CONTRIBUTING.md (fix typos and errors) by Romain Deville ([`7f82764`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/7f827646ccb4d4508bef6e4123e0bc59c26a37a3)) 🔏
+  * 📝 Improve README documentation with better install description by Romain Deville ([`3d9c913`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/3d9c913f7c2a0f063978fff7b3a012cf98d0b8c0)) 🔏
+  * 📸 Update lazy-lock.json from scheduled pipeline (!130) by DOTGIT_SYNC_TOKEN ([`4585861`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/45858616bed8117686241d934106593e4951e0d7))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`f8b1781`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/f8b178187e304bf5e2d85335c6b2b97ff3b5ef50))
+  * 📸 Update lazy-lock.json from scheduled pipeline (!129) by Romain Deville ([`b7332a5`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/b7332a5cf4e193aa8fc8c327ce3575e3b65d7be2))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`4851fef`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/4851fef90855a47a9fd92d77f4f512a774577380))
+  * 🔥(plugins): Remove transparent plugin by Romain Deville ([`1f1d1d0`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/1f1d1d08eb050ad0d4f7adaf3e3a4825c049609f)) 🔏
+
 ## v0.9.1 (2026-01-27)
 
 ### 🩹 Patch
