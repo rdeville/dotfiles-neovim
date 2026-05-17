@@ -91,9 +91,9 @@ map("n", "<leader>gb", "<cmd>GitBlameToggle<cr>", { desc = "Toggle Git Blame" })
 local lazyterm = function() LazyVim.terminal(nil, { cwd = LazyVim.root() }) end
 del("n", "<leader>fT") -- { desc = "Terminal (Root Dir)" })
 del("n", "<leader>ft") -- { desc = "Terminal (cwd)" })
-map("n", "T", lazyterm, { desc = "Terminal (Root Dir)" })
+map("n", "<leader>t", lazyterm, { desc = "Terminal (Root Dir)" })
 -- Terminal Mappings
-map("t", "T", "<cmd>close<cr>", { desc = "Hide Terminal" })
+map("t", "<C-q>", "<cmd>close<cr>", { desc = "Hide Terminal" })
 
 -- Windows
 -- I know I'll never use it, so disable mapping
