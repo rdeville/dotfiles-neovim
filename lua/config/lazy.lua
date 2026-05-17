@@ -29,6 +29,8 @@ if (vim.uv or vim.loop).fs_stat(extraPluginsPath) then
   extraPlugins = { import = "extra" }
 end
 
+vim.g.lazyvim_check_order = false
+
 require("lazy").setup({
   spec = {
     { "LazyVim/LazyVim" },
