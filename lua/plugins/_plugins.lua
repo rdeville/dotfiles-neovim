@@ -17,4 +17,5 @@ return {
     "garymjr/nvim-snippets",
     enabled = false,
   },
+  { "LazyVim/LazyVim", version = false },
 }
