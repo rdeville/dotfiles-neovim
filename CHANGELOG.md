@@ -1,6 +1,27 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.12.0 (2026-09-06)
+
+### ✨ Minor
+
+  * ✨(plugins): Add ascii-doc preview plugin, remove vue related pkg and plugin (!139) by Romain Deville ([`614dd29`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/614dd291278d214b88b4964522156e15cf41179c))
+  * ✨(plugin): Add ascii-doc preview plugin by Romain Deville ([`5561e7f`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/5561e7f919347d20d39e0de43882c53aa5750e1e)) 🔏
+
+### 🩹 Patch
+
+  * ⬆️ Update flake.lock by Romain Deville ([`fcca4fc`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/fcca4fcf95e734e06b64c2ca84ab212e02b3af55)) 🔏
+  * ⬆️(lazy): Upgrade lazy-lock.json by Romain Deville ([`df51b49`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/df51b492c996a739242abe12dda4a283f13459bb)) 🔏
+
+### 🔊 Others
+
+  * 💚(ci): Fix commit lint wrong branch when merged on main (!140) by Romain Deville ([`114f7e2`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/114f7e209a9ca3512ced7588c67f76e3a160aa02))
+  * 💚(ci): Fix commit lint wrong branch when merged on main by Romain Deville ([`66fa655`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/66fa6553389bbecf9a487bc58b5f673b61f249f8)) 🔏
+  * 📸 Update lazy-lock.json from scheduled pipeline (!138) by DOTGIT_SYNC_TOKEN ([`9db09dc`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/9db09dceae82368eecb4a93a634498d30f0fda16))
+  * 📸 Update lazy-lock.json from scheduled pipeline by code+bot.lazylock-update@romaindeville.fr ([`53d7fa9`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/53d7fa980d05aab1c0ac4e18d4525b1be1bfe481))
+  * 🔥(flake): Remove vue-language-server, not using vue by Romain Deville ([`4eef7ea`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/4eef7ea8da8322f624e2f632d03216842196e010)) 🔏
+  * 🔥(plugins): Remove vue plugin, I don&#39;t use it by Romain Deville ([`6b7293d`](https://framagit.org/rdeville-public/dotfiles/neovim/-/commit/6b7293dfadf4620278487077082aeff96024c8a3)) 🔏
+
 ## v0.11.0 (2026-05-17)
 
 ### ✨ Minor
