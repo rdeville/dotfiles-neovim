@@ -101,7 +101,6 @@
                 rustc
                 statix
                 tree-sitter
-                vue-language-server
               ]
               ++ (
                 if ! stdenv.hostPlatform.isDarwin
