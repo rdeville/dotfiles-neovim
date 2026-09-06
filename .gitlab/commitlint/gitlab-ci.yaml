@@ -1,4 +1,3 @@
-# BEGIN DOTGIT-SYNC BLOCK MANAGED YAML_MERGED
 Lint All Commit Since Default Branch:
   image: alpine:latest
   stage: pre-ci
@@ -9,7 +8,13 @@ Lint All Commit Since Default Branch:
   - git fetch --all
   - git checkout "${CI_DEFAULT_BRANCH}"
   - git switch "${CI_MERGE_REQUEST_SOURCE_BRANCH_NAME:-$CI_COMMIT_BRANCH}"
-  - npx commitlint --from "${CI_DEFAULT_BRANCH}" --to "${CI_COMMIT_BRANCH}"
+  - |
+    BRANCH="${CI_MERGE_REQUEST_SOURCE_BRANCH_NAME:-$CI_COMMIT_BRANCH}"
+    if [ "${BRANCH}" = "${CI_DEFAULT_BRANCH}" ]; then
+      npx commitlint --from-last-tag
+    else
+      npx commitlint --from "${CI_DEFAULT_BRANCH}" --to "${BRANCH}"
+    fi
   rules:
   - if: $CI_PIPELINE_SOURCE =~ /(parent_pipeline|pipeline)/
     when: never
@@ -32,4 +37,3 @@ Lint MR Title and Desc:
     when: never
   - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     when: always
-# END DOTGIT-SYNC BLOCK MANAGED YAML_MERGED
